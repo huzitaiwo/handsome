@@ -1,6 +1,10 @@
 .navbar {
+  background: #100e1d;
+}
+.navbar .container {
   display: flex;
   align-items: center;
+  height: 10vh;
 }
 .navbar .brand {
   margin-right: auto;
