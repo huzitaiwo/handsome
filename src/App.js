@@ -5,7 +5,13 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      app
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/'>
+            
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
