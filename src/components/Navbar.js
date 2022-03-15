@@ -12,7 +12,7 @@ export default function Navbar() {
         </Link>
         <ul>
             <li><Link to='/project'>Project</Link></li>
-            <li><Link to='/contact'>Let's Talk</Link></li>
+            <li className='hi'><Link to='/contact'>Let's Talk</Link></li>
         </ul>
       </div>
     </nav>

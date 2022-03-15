@@ -1,5 +1,5 @@
 .navbar {
-  background: #100e1d;
+  background: #6d4ed7;
 }
 .navbar .container {
   display: flex;
@@ -9,4 +9,23 @@
 .navbar .brand {
   margin-right: auto;
   display: flex;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar li {
+  list-style: none;
+  padding: 0 15px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .hi {
+  border-radius: 6px;
+  padding: 8px 20px;
+  /* margin-left: 20px; */
+  background: #100e1d;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
