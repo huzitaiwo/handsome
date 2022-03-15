@@ -7,6 +7,7 @@ import './App.css'
 import Home from './pages/home/Home'
 import Navbar from './components/Navbar'
 import Project from './pages/project/Project'
+import Contact from './pages/contact/Contact'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path='/project'>
             <Project />
+          </Route>
+          <Route path='/contact'>
+            <Contact />
           </Route>
         </Switch>
       </BrowserRouter>
