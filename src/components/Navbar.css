@@ -54,6 +54,8 @@
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
+    height: 0;
+    overflow: hidden;
   }
   .hi {
     border-radius: none;

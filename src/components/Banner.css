@@ -29,4 +29,10 @@
   .banner {
     padding: 60px 0;
   }
+  .banner h2 {
+    font-size: 1.5rem;
+    max-width: 450px;
+    line-height: 1.2;
+    margin: 20px 0;
+  }
 }
