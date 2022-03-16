@@ -1,6 +1,6 @@
 .banner {
-  background: #6d4ed7;
-  color: #fff;
+  background: #ae9ce9;
+  color: #251a59;
   padding: 120px 0;
 }
 .banner span {
@@ -9,8 +9,8 @@
   font-size: 1.3rem;
 }
 .banner h2 {
-  font-size: 2rem;
-  max-width: 450px;
+  font-size: 2.2rem;
+  max-width: 500px;
   line-height: 1.2;
   margin: 20px 0;
 }
