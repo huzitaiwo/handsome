@@ -7,9 +7,9 @@
   height: 10vh;
 }
 .navbar .brand {
-  margin-right: auto;
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .navbar .brand img {
   width: 35px;
@@ -39,4 +39,23 @@
 }
 .navbar .hi:hover {
   background: #6d4ed7;
+}
+.navbar .toggler {
+  display: none;
+}
+
+/* mobile landscape - 678px */
+@media (max-width: 678px) {
+  .navbar ul {
+    background: #13192e;
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar .toggler {
+    display: initial;
+  }
 }

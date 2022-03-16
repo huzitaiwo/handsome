@@ -10,7 +10,7 @@ export default function Banner() {
         <div className="follow">
           <p>Follow me on:</p>
           <ul>
-            <li><a href=""></a></li>
+            {/* <li><a href=""></a></li> */}
           </ul>
         </div>
       </div>
