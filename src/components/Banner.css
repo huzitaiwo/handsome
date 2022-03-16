@@ -17,6 +17,14 @@
 .banner p {
   max-width: 50ch;
 }
+.banner .social-links {
+  display: flex;
+  list-style: none;
+}
+.banner .social-links li {
+  margin: 30px 15px 0 0;
+}
+
 @media (max-width: 678px) {
   .banner {
     padding: 60px 0;
