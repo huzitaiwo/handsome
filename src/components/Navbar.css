@@ -32,12 +32,12 @@
 }
 .hi {
   border-radius: 6px;
-  padding: 6px 18px;
+  padding: 6px 18px !important;
   margin-left: 20px;
   background: #100e1d;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.navbar .hi:hover {
+.hi:hover {
   background: #6d4ed7;
 }
 .navbar .toggler {
@@ -64,7 +64,7 @@
   .navbar li {
     margin-left: 30px;
     padding: 0;
-    padding: 10px 0;
+    padding: 10px 0 !important;
   }
   .navbar .hi:hover {
     background: none;
