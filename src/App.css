@@ -2,12 +2,28 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-section {
+section,
+footer {
   padding: 60px 0;
 }
 
 @media (max-width: 1200px) {
   .container {
     padding: 0 30px;
+  }
+}
+
+/* mobile landscape - 678px */
+@media (max-width: 678px) {
+  section,
+  footer {
+    padding: 30px 0;
+  }
+}
+
+/* mobile portrait - 512px */
+@media (max-width: 512px) {
+  .container {
+    padding: 0 15px;
   }
 }
