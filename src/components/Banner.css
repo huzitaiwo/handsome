@@ -4,5 +4,16 @@
   padding: 120px 0;
 }
 .banner span {
-  font-weight: 200;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.banner h2 {
+  font-size: 2rem;
+  max-width: 450px;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+.banner p {
+  max-width: 50ch;
 }
