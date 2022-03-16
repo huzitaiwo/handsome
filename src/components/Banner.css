@@ -17,12 +17,19 @@
 .banner p {
   max-width: 50ch;
 }
+.banner .follow {
+  margin-top: 30px;
+}
+.banner .follow p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
 .banner .social-links {
   display: flex;
   list-style: none;
 }
 .banner .social-links li {
-  margin: 30px 15px 0 0;
+  margin: 15px 15px 0 0;
 }
 
 @media (max-width: 678px) {
