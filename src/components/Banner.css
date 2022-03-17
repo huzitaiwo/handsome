@@ -31,6 +31,9 @@
 .banner .social-links li {
   margin: 15px 15px 0 0;
 }
+.banner .social-links img {
+  filter: invert(0.1);
+}
 
 @media (max-width: 678px) {
   .banner {
