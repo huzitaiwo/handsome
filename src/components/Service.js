@@ -6,6 +6,10 @@ export default function Service() {
     <section className='service'>
       <h2>What I do</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque aliquam laboriosam expedita ea architecto!</p>
+
+      <div className="service-list">
+        
+      </div>
     </section>
   )
 }

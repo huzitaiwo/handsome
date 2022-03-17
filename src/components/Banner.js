@@ -11,13 +11,13 @@ export default function Banner() {
       <div className="container">
         <span>&#128075; Welcome!</span>
         <h2>I'm a Frontend Developer and Software Engineer from somewhere</h2>
-        <p>I have 3 years of experience of creating functional high-performing, content-driven, optimized websites and web applications.</p>
+        <p>I have <small>2 years</small> of experience of creating functional high-performing, content-driven, optimized websites and web applications.</p>
         <div className="follow">
           <p>Follow me on:</p>
           <ul className='social-links'>
             <li><a href="#"><img src={github} alt="instagram" /></a></li>
             <li><a href="#"><img src={linkedin} alt="linkedin" /></a></li>
-            <li><a href="#"><img src={twitter} alt="" /></a></li>
+            <li><a href="#"><img src={twitter} alt="twitter" /></a></li>
             <li><a href="#"><img src={instagram} alt="instagram" /></a></li>
           </ul>
         </div>
