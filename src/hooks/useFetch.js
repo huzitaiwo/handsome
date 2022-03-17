@@ -6,7 +6,7 @@ export const useFetch = url => {
   const [isLoading, setIsLoading] = useState(false)
 
   useEffect(() => {
-    const fetchData = () => {
+    const fetchData = async () => {
       isLoading(true)
 
       try {
