@@ -5,7 +5,6 @@ import './Service.css'
 export default function Service() {
   const url = 'http://localhost:5000/services';
   const { isLoading, error, data: services } = useFetch(url)
-  console.log(data)
 
 
   return (
@@ -16,9 +15,12 @@ export default function Service() {
       <div className="service-list">
         {error && <h3>{error}</h3>}
         {isLoading && <h3>loading...</h3>}
-        {services && services.map(service => {
-          <div></div>
-        })}
+        {services && services.map(service => (
+          <div key={service.id}>
+            <h2 className='title'>{service.title}</h2>
+            <p className='description'>{service.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   )
