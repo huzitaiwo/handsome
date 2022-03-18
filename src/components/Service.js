@@ -18,8 +18,8 @@ export default function Service() {
           {isLoading && <h3>loading...</h3>}
           {services && services.map(service => (
             <div key={service.id}>
-              <div  className='title'>
-                <h2>{service.title}</h2>
+              <div className='title'>
+                <h3>{service.title}</h3>
               </div>
               <p className='description'>{service.description}</p>
             </div>
