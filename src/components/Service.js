@@ -4,7 +4,7 @@ import './Service.css'
 
 export default function Service() {
   const url = 'http://localhost:5000/services';
-  const { isLoading, error, data } = useFetch(url)
+  const { isLoading, error, data: services } = useFetch(url)
   console.log(data)
 
 
@@ -14,7 +14,11 @@ export default function Service() {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque aliquam laboriosam expedita ea architecto!</p>
 
       <div className="service-list">
-        
+        {error && <h3>{error}</h3>}
+        {isLoading && <h3>loading...</h3>}
+        {services && services.map(service => {
+          <div></div>
+        })}
       </div>
     </section>
   )

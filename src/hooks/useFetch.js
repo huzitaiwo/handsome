@@ -22,6 +22,7 @@ export const useFetch = url => {
         setError(null)
         setData(json)
       }
+      
       catch (err) {
         setError(err.message)
         setIsLoading(false)
