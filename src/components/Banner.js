@@ -15,10 +15,10 @@ export default function Banner() {
         <div className="follow">
           <p>Follow me on:</p>
           <ul className='social-links'>
-            <li><a href="#"><img src={github} alt="instagram" /></a></li>
-            <li><a href="#"><img src={linkedin} alt="linkedin" /></a></li>
-            <li><a href="#"><img src={twitter} alt="twitter" /></a></li>
-            <li><a href="#"><img src={instagram} alt="instagram" /></a></li>
+            <li><a href="https://google.com"><img src={github} alt="instagram" /></a></li>
+            <li><a href="https://google.com"><img src={linkedin} alt="linkedin" /></a></li>
+            <li><a href="https://google.com"><img src={twitter} alt="twitter" /></a></li>
+            <li><a href="https://google.com"><img src={instagram} alt="instagram" /></a></li>
           </ul>
         </div>
       </div>
