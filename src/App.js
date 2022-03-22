@@ -9,7 +9,6 @@ import Navbar from './components/Navbar'
 import Project from './pages/project/Project'
 import Contact from './pages/contact/Contact'
 import Website from './pages/project/Website'
-import Sidebar from './components/Sidebar'
 import Apps from './pages/project/Apps'
 import Dapps from './pages/project/Dapps'
 

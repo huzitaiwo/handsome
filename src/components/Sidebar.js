@@ -7,9 +7,9 @@ export default function Sidebar() {
   return (
     <div className='sidebar'>
       <ul>
-        <li><NavLink to='/'></NavLink>Websites</li>
-        <li><NavLink to='/'></NavLink>Apps</li>
-        <li><NavLink to='/'></NavLink>dApps</li>
+        <li><NavLink to='/website'>Websites</NavLink></li>
+        <li><NavLink to='/apps'>Apps</NavLink></li>
+        <li><NavLink to='/dapps'>dApps</NavLink></li>
       </ul>
     </div>
   )
