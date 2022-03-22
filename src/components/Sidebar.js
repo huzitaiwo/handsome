@@ -6,7 +6,7 @@ import './Sidebar.css'
 export default function Sidebar() {
   return (
     <div className='sidebar'>
-      <ul>
+      <ul className='links'>
         <li><NavLink to='/website'>Websites</NavLink></li>
         <li><NavLink to='/apps'>Apps</NavLink></li>
         <li><NavLink to='/dapps'>dApps</NavLink></li>

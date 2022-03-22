@@ -1,0 +1,13 @@
+.sidebar {
+}
+.sidebar .links {
+  display: flex;
+}
+
+.links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #000;
+}
