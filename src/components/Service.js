@@ -16,14 +16,16 @@ export default function Service() {
         <div className="service-list">
           {error && <h3>{error}</h3>}
           {isLoading && <h3>loading...</h3>}
-          {services && services.map(service => (
-            <div key={service.id}>
-              <div className='title'>
-                <h3>{service.title}</h3>
-              </div>
-              <p className='description'>{service.description}</p>
-            </div>
-          ))}
+          <ul className='service-list__content'>
+            {services && services.map(service => (
+              <li key={service.id}>
+                <div className='title'>
+                  <h3>{service.title}</h3>
+                </div>
+                <p className='description'>{service.description}</p>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
