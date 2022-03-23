@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
-import brand from '../assest/icon/logo.svg'
-import hamburger from '../assest/icon/hamburger.svg'
-// import close from '../assest/icon/close.svg'
+import brand from '../asset/icon/logo.svg'
+import hamburger from '../asset/icon/hamburger.svg'
 
 // style
 import './Navbar.css'
