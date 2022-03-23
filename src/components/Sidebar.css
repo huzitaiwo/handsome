@@ -1,7 +1,3 @@
-.sidebar .links {
-  display: flex;
-}
-
 .links a {
   text-decoration: none;
   text-transform: uppercase;
