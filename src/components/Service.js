@@ -1,5 +1,5 @@
 import { useFetch } from '../hooks/useFetch'
-import Url from '../asset/src/2hGjmgZrS1nlsEl5PZorn7EsmzH.jpg'
+import Url from '../asset/2hGjmgZrS1nlsEl5PZorn7EsmzH.jpg'
 // styles
 import './Service.css'
 
@@ -20,7 +20,7 @@ export default function Service() {
           <ul className='service-list__content'>
             {services && services.map(service => (
               <li key={service.id}>
-                <img src={Url} alt={Url} />
+                <img src={Url} alt={Url} style={{ filter: 'blur(5px)' }} />
                 <h3>{service.title}</h3>
                 <p className='description'>{service.description}</p>
               </li>
