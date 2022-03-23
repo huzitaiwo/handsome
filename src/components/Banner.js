@@ -1,9 +1,9 @@
 import './Banner.css'
 
-import linkedin from '../assest/icon/linkedin-brand.svg'
-import github from '../assest/icon/github-brand.svg'
-import instagram from '../assest/icon/instagram-brand.svg'
-import twitter from '../assest/icon/twitter-brand.svg'
+import linkedin from '../asset/icon/linkedin-brand.svg'
+import github from '../asset/icon/github-brand.svg'
+import instagram from '../asset/icon/instagram-brand.svg'
+import twitter from '../asset/icon/twitter-brand.svg'
 
 export default function Banner() {
   return (
