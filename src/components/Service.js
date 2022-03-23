@@ -21,8 +21,10 @@ export default function Service() {
             {services && services.map(service => (
               <li key={service.id}>
                 <img src={Url} alt={Url} style={{ filter: 'blur(5px)' }} />
-                <h3>{service.title}</h3>
-                <p className='description'>{service.description}</p>
+                <div className="content">
+                  <h3>{service.title}</h3>
+                  <p className='description'>{service.description}</p>
+                </div>
               </li>
             ))}
           </ul>
