@@ -4,17 +4,44 @@
 .service-list__content {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  display: grid;
+  gap: 60px;
 }
 .service-list__content li {
   list-style: none;
-  margin-bottom: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 60px;
   align-items: center;
+}
+.service-list__content img {
+  width: 100%;
+}
+.service-list__content > li:nth-child(2) .content {
+  order: -1;
 }
 .service-list__content h3 {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 15px;
+}
+
+@media (max-width: 860px) {
+  .service-list__content li {
+    grid-template-columns: 1fr;
+  }
+  .service-list__content > li:nth-child(2) .content {
+    order: 0;
+  }
+}
+
+@media (max-width: 512px) {
+  .service-list__content,
+  .service-list__content li {
+    gap: 30px;
+  }
+  .service-list__content h3 {
+    font-size: 1.3rem;
+  }
 }
