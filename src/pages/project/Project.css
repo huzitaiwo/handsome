@@ -3,19 +3,19 @@
   align-items: center;
   /* position: fixed; */
 }
-.project__bar {
+.projecr__bar-content {
   width: 100%;
-  max-width: 400px;
+  width: 400px;
   height: 90vh;
+}
+.project__bar {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 60px;
-}
-.project__links ul {
-  position: fixed;
-  width: inherit;
+  /* position: fixed;
+  width: inherit; */
 }
 .project__links li {
   list-style: none;
