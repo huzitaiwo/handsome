@@ -10,7 +10,7 @@ export default function Project() {
         <div className='project__bar'>
           <div className="projecr__bar-content">
             <ul className='project__links'>
-              <li><button>Websites</button></li>
+              <li><button className='active'>Websites</button></li>
               <li><button>Apps</button></li>
               <li><button>dApps</button></li>
             </ul>
