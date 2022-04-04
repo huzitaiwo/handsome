@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
 }
-.navbar li {
+.navbar .navbar__links {
   list-style: none;
   padding: 0 15px;
 }
@@ -30,15 +30,19 @@
 .navbar a:hover {
   color: #6d4ed7;
 }
-.hi {
+.navbar .hi a:hover {
+  color: #fff;
+}
+.navbar .hi {
   border-radius: 6px;
-  padding: 6px 18px !important;
+  padding: 6px 18px;
   margin-left: 20px;
   background: #100e1d;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.hi:hover {
+.navbar .hi:hover {
   background: #6d4ed7;
+  color: #fff;
 }
 .navbar .toggler {
   display: none;

@@ -14,9 +14,9 @@ export default function Navbar() {
           <span>Handsome</span>
         </Link>
         <ul>
-          <li><Link to='/project'>Project</Link></li>
-          <li><Link to='/resume'>Resume</Link></li>
-          <li className='hi'><Link to='/contact'>Let's Talk</Link></li>
+          <li className='navbar__links'><Link to='/project'>Project</Link></li>
+          <li className='navbar__links'><Link to='/resume'>Resume</Link></li>
+          <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>
         </ul>
         <div className="toggler">
           <img className='hamburger' src={hamburger} alt="" />
