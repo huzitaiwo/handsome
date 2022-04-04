@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import arrowRight from '../../asset/icon/arrow-right.svg'
 
 // styles
 import './ProjectDetails.css'
@@ -30,7 +31,7 @@ export default function ProjectDetails() {
               <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, excepturi nisi architecto fugit autem iusto. Aspernatur dolorum expedita soluta, sit error ratione modi amet itaque dicta veritatis iusto tempora hic debitis commodi exercitationem doloremque aut ipsam explicabo ipsa nobis?</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, excepturi nisi architecto fugit autem iusto. Aspernatur dolorum expedita soluta, sit error ratione modi amet itaque dicta veritatis iusto tempora hic debitis commodi exercitationem doloremque aut ipsam explicabo ipsa nobis?</p>
-              <a class="project-link btn" href="https://edieweb.netlify.app" target="_blank">View project <img src="./icon/arrow-right.svg" alt="avist website icon" /></a>
+              <a class="project-link btn" href="https://edieweb.netlify.app" target="_blank">View project <img src={arrowRight} alt="avist website icon" /></a>
             </div>
           </div>
         </div>

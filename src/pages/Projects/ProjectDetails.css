@@ -50,9 +50,10 @@
 }
 
 .btn {
-  display: inline-block;
-  padding: 10px 15px;
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
-  border-radius: 5px;
+  display: flex;
   margin-top: 30px;
+  padding: 10px 15px;
+  background: #6d4ed7;
+  border-radius: 5px;
+  color: #fff;
 }
