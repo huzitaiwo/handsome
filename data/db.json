@@ -15,5 +15,24 @@
       "title": "Webflow magic",
       "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus."
     }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Web Design and Development",
+      "category": "web development",
+      "year": 2022,
+      "client_name": "Warwick"
+    },
+    {
+      "id": "2",
+      "title": "Web3.0 and Blockhain Development",
+      "description": "Etiam vel ante risus. Integer ultrices egestas lacus id faucibus. Suspendisse eleifend nibh eu faucibus consectetur. Etiam ut mi tristique, dignissim sem in, vestibulum dui. Aliquam tempor facilisis tortor a fermentum."
+    },
+    {
+      "id": "3",
+      "title": "Webflow magic",
+      "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus."
+    }
   ]
 }
