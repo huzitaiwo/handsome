@@ -37,3 +37,26 @@
 .project__links a.active {
   border-bottom: 1px solid #000;
 }
+
+@media (max-width: 860px) {
+  .project .container {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .projecr__bar-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 60px;
+    /* background: #eee; */
+  }
+  .project__bar {
+    position: static;
+  }
+  .project__list {
+    margin: 0;
+  }
+}
