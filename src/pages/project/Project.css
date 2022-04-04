@@ -35,8 +35,8 @@
   cursor: pointer;
 }
 .project__links button.active {
-  border-bottom: 2px solid #2ba9cf;
-  color: #2ba9cf;
+  border-bottom: 2px solid #6d4ed7;
+  color: #6d4ed7;
 }
 
 @media (max-width: 860px) {
