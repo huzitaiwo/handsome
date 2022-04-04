@@ -17,15 +17,15 @@ export default function Project() {
       </div>
       <div className="project__list">
         <img 
-          src={projectImage} alt="image"
+          src={projectImage} alt="placeholder"
           style={{ width: '100%', filter: 'blur(3px)' }}
         />
         <img 
-          src={projectImage} alt="image"
+          src={projectImage} alt="placeholder"
           style={{ width: '100%', filter: 'blur(3px)' }}
         />
         <img 
-          src={projectImage} alt="image"
+          src={projectImage} alt="placeholder"
           style={{ width: '100%', filter: 'blur(3px)' }}
         />
       </div>
