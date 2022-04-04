@@ -17,6 +17,9 @@
 .project__list {
   margin-left: 450px;
 }
+.project__list img {
+  width: 100%;
+}
 .project__links li {
   list-style: none;
   padding: 15px 0;

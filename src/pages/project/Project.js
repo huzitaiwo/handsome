@@ -1,4 +1,5 @@
-import projectImage from '../../asset/2hGjmgZrS1nlsEl5PZorn7EsmzH.jpg'
+import projectManagement from '../../asset/project.png'
+import myMovie from '../../asset/mymovie.png'
 
 //styles
 import './Project.css'
@@ -17,22 +18,8 @@ export default function Project() {
           </div>
         </div>
         <div className="project__list">
-          <img 
-            src={projectImage} alt="placeholder"
-            style={{ width: '100%', filter: 'blur(3px)' }}
-          />
-          <img 
-            src={projectImage} alt="placeholder"
-            style={{ width: '100%', filter: 'blur(3px)' }}
-          />
-          <img 
-            src={projectImage} alt="placeholder"
-            style={{ width: '100%', filter: 'blur(3px)' }}
-          />
-          <img 
-            src={projectImage} alt="placeholder"
-            style={{ width: '100%', filter: 'blur(3px)' }}
-          />
+          <img src={myMovie} alt="my movie website" />
+          <img src={projectManagement} alt="project management web app" />
         </div>
       </div>
     </div>
