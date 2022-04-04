@@ -4,7 +4,7 @@ import Url from '../asset/2hGjmgZrS1nlsEl5PZorn7EsmzH.jpg'
 import './Service.css'
 
 export default function Service() {
-  const [services, setServices] = useState(
+  const [services] = useState(
     [
       {
         "id": "1",
@@ -34,7 +34,7 @@ export default function Service() {
           <ul className='service-list__content'>
             {services.map(service => (
               <li key={service.id}>
-                <img src={Url} alt={Url} style={{ filter: 'blur(5px)' }} />
+                <img src={Url} alt='placeholder' style={{ filter: 'blur(5px)' }} />
                 <div className="content">
                   <h3>{service.title}</h3>
                   <p className='description'>{service.description}</p>
