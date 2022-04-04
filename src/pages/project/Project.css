@@ -1,21 +1,25 @@
-.project {
+.project .container {
   display: flex;
-  align-items: center;
-  /* position: fixed; */
+  /* align-items: center; */
+  justify-content: space-between;
 }
 .projecr__bar-content {
   width: 100%;
-  width: 400px;
+  width: 200px;
   height: 90vh;
-}
-.project__bar {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 60px;
-  /* position: fixed;
-  width: inherit; */
+  /* background: #eee; */
+}
+.project__bar {
+  position: fixed;
+  width: 100%;
+}
+.project__list {
+  margin-left: 300px;
 }
 .project__links li {
   list-style: none;

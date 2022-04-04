@@ -6,28 +6,34 @@ import './Project.css'
 export default function Project() {
   return (
     <div className='project'>
-      <div className='project__bar'>
-        <div className="projecr__bar-content">
-          <ul className='project__links'>
-            <li><button>Websites</button></li>
-            <li><button>Apps</button></li>
-            <li><button>dApps</button></li>
-          </ul>
+      <div className="container">
+        <div className='project__bar'>
+          <div className="projecr__bar-content">
+            <ul className='project__links'>
+              <li><button>Websites</button></li>
+              <li><button>Apps</button></li>
+              <li><button>dApps</button></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div className="project__list">
-        <img 
-          src={projectImage} alt="placeholder"
-          style={{ width: '100%', filter: 'blur(3px)' }}
-        />
-        <img 
-          src={projectImage} alt="placeholder"
-          style={{ width: '100%', filter: 'blur(3px)' }}
-        />
-        <img 
-          src={projectImage} alt="placeholder"
-          style={{ width: '100%', filter: 'blur(3px)' }}
-        />
+        <div className="project__list">
+          <img 
+            src={projectImage} alt="placeholder"
+            style={{ width: '100%', filter: 'blur(3px)' }}
+          />
+          <img 
+            src={projectImage} alt="placeholder"
+            style={{ width: '100%', filter: 'blur(3px)' }}
+          />
+          <img 
+            src={projectImage} alt="placeholder"
+            style={{ width: '100%', filter: 'blur(3px)' }}
+          />
+          <img 
+            src={projectImage} alt="placeholder"
+            style={{ width: '100%', filter: 'blur(3px)' }}
+          />
+        </div>
       </div>
     </div>
   )
