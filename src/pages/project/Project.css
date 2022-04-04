@@ -1,18 +1,14 @@
 .project .container {
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
 }
 .projecr__bar-content {
-  width: 100%;
   width: 200px;
   height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
   padding-bottom: 60px;
-  /* background: #eee; */
 }
 .project__bar {
   position: fixed;
