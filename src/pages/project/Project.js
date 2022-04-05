@@ -1,8 +1,9 @@
 import { useState } from 'react'
 
 // images
-import projectManagement from '../../asset/project.png'
-import myMovie from '../../asset/mymovie.png'
+import projectManagement from '../../asset/images/project.png'
+import myMovie from '../../asset/images/mymovie.png'
+import fundo from '../../asset/images/fundo.png'
 
 //styles
 import './Project.css'
@@ -14,12 +15,11 @@ export default function Project() {
   ]
   const websites = [
     { id: 3, image: myMovie },
-    { id: 4, image: myMovie }
+    { id: 4, image: fundo }
   ]
 
   const [projects, setProjects] = useState(websites)
   const [status, setStatus] = useState(0)
-  // console.log(projects, websites)
 
   return (
     <div className='project'>

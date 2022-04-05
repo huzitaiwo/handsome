@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Url from '../asset/mymovie.png'
+import thumbnail from '../asset/images/mymovie.png'
 // styles
 import './Service.css'
 
@@ -34,7 +34,7 @@ export default function Service() {
           <ul className='service-list__content'>
             {services.map(service => (
               <li key={service.id}>
-                <img src={Url} alt='placeholder' />
+                <img src={thumbnail} alt='placeholder' />
                 <div className="content">
                   <h3>{service.title}</h3>
                   <p className='description'>{service.description}</p>
