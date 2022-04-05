@@ -18,6 +18,7 @@ export default function Project() {
   ]
 
   const [projects, setProjects] = useState(websites)
+  // console.log(projects, websites)
 
   return (
     <div className='project'>
@@ -25,9 +26,9 @@ export default function Project() {
         <div className='project__bar'>
           <div className="projecr__bar-content">
             <ul className='project__links'>
-              <li><button className='active' onClick={() => setProjects(websites)}>Websites</button></li>
-              <li><button onClick={() => setProjects(apps)}>Apps</button></li>
-              <li><button onClick={() => setProjects([])}>dApps</button></li>
+              <li><button className={projects === websites ? 'active' : ''} onClick={() => setProjects(websites)}>Websites</button></li>
+              <li><button className={projects === apps ? 'active' : ''} onClick={() => setProjects(apps)}>Apps</button></li>
+              <li><button className={projects === '' ? 'active' : ''} onClick={() => setProjects([])}>dApps</button></li>
             </ul>
           </div>
         </div>
