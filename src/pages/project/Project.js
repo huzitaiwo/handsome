@@ -13,11 +13,12 @@ export default function Project() {
     { id: 2, image: projectManagement }
   ]
   const websites = [
-    { id: 1, image: myMovie },
-    { id: 2, image: myMovie }
+    { id: 3, image: myMovie },
+    { id: 4, image: myMovie }
   ]
 
   const [projects, setProjects] = useState(websites)
+  const [status, setStatus] = useState(0)
   // console.log(projects, websites)
 
   return (
@@ -26,9 +27,18 @@ export default function Project() {
         <div className='project__bar'>
           <div className="projecr__bar-content">
             <ul className='project__links'>
-              <li><button className={projects === websites ? 'active' : ''} onClick={() => setProjects(websites)}>Websites</button></li>
-              <li><button className={projects === apps ? 'active' : ''} onClick={() => setProjects(apps)}>Apps</button></li>
-              <li><button className={projects === '' ? 'active' : ''} onClick={() => setProjects([])}>dApps</button></li>
+              <li><button onClick={() => {
+                setProjects(websites)
+                setStatus(0)
+                }} className={status === 0 ? 'active' : ''}>Websites</button></li>
+              <li><button onClick={() => {
+                setProjects(apps)
+                setStatus(1)
+                }} className={status === 1 ? 'active' : ''}>Apps</button></li>
+              <li><button onClick={() => {
+                setProjects([])
+                setStatus(2)
+                }} className={status === 2 ? 'active' : ''}>dApps</button></li>
             </ul>
           </div>
         </div>
