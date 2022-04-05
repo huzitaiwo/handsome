@@ -19,6 +19,7 @@
   "projects": [
     {
       "id": "1",
+      "imgURL": "",
       "name": "Web Design and Development",
       "category": "web development",
       "year": 2022,
