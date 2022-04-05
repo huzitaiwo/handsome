@@ -18,22 +18,43 @@
   ],
   "projects": [
     {
-      "id": "1",
-      "imgURL": "",
+      "id": "2MDAF7DBVnsAqM4LCSyq",
       "name": "Web Design and Development",
+      "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus.",
       "category": "web development",
+      "imgURL": "",
       "year": 2022,
-      "client_name": "Warwick"
+      "clientName": "Warwick",
+      "images": ["", "", "", ""]
     },
     {
-      "id": "2",
-      "title": "Web3.0 and Blockhain Development",
-      "description": "Etiam vel ante risus. Integer ultrices egestas lacus id faucibus. Suspendisse eleifend nibh eu faucibus consectetur. Etiam ut mi tristique, dignissim sem in, vestibulum dui. Aliquam tempor facilisis tortor a fermentum."
+      "id": "2MDAF7DBVnsAqM4LCSyq",
+      "name": "Web Design and Development",
+      "description": "Donec ultrices tincidunt arcu non sodales neque sodales ut. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Eleifend donec pretium vulputate sapien nec. Dignissim enim sit amet venenatis urna. Nibh venenatis cras sed felis eget",
+      "category": "web development",
+      "imgURL": "",
+      "year": 2022,
+      "clientName": "Warwick",
+      "images": ["", "", "", ""]
     },
     {
-      "id": "3",
-      "title": "Webflow magic",
-      "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus."
+      "id": "2MDAF7DBVnsAqM4LCSyq",
+      "name": "Web Design and Development",
+      "description": "Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Aliquet enim tortor at auctor urna. Eros in cursus turpis massa tincidunt. Proin sagittis nisl rhoncus mattis rhoncus. Libero nunc consequat interdum varius sit amet mattis vulputate enim.",
+      "category": "web development",
+      "imgURL": "",
+      "year": 2022,
+      "clientName": "Warwick",
+      "images": ["", "", "", ""]
+    },
+    {
+      "name": "Web Design and Development",
+      "description": "Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Aliquet enim tortor at auctor urna. Eros in cursus turpis massa tincidunt. Proin sagittis nisl rhoncus mattis rhoncus. Libero nunc consequat interdum varius sit amet mattis vulputate enim.",
+      "category": "web development",
+      "imgURL": "",
+      "year": 2022,
+      "clientName": "Warwick",
+      "images": ["", "", "", ""]
     }
   ]
 }
