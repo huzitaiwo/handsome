@@ -20,7 +20,7 @@
   "projects": [
     {
       "id": "2MDAF7DBVnsAqM4LCSyq",
-      "name": "Real Estate",
+      "name": "Real Estate Website",
       "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus.",
       "category": "web development",
       "imgURL": "public/fundo.png",
@@ -30,10 +30,10 @@
     },
     {
       "id": "2MDAF7DBVnsAqM4LCSyq",
-      "name": "Web Design and Development",
+      "name": "Movie Application",
       "description": "Donec ultrices tincidunt arcu non sodales neque sodales ut. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Eleifend donec pretium vulputate sapien nec. Dignissim enim sit amet venenatis urna. Nibh venenatis cras sed felis eget",
       "category": "web development",
-      "imgURL": "",
+      "imgURL": "public/mymovie.png",
       "year": 2022,
       "clientName": "Warwick",
       "images": ["", "", "", ""]
