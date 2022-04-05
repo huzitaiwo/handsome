@@ -16,16 +16,17 @@
       "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus."
     }
   ],
+
   "projects": [
     {
       "id": "2MDAF7DBVnsAqM4LCSyq",
-      "name": "Web Design and Development",
+      "name": "Real Estate",
       "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus.",
       "category": "web development",
-      "imgURL": "",
+      "imgURL": "public/fundo.png",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["", "", "", ""]
+      "images": ["public/fundo.png", "public/fundo.png", "public/fundo.png", "public/fundo.png"]
     },
     {
       "id": "2MDAF7DBVnsAqM4LCSyq",
