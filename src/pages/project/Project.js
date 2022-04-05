@@ -5,6 +5,7 @@ import projectManagement from '../../asset/images/project.png'
 import myMovie from '../../asset/images/mymovie.png'
 import zulie from '../../asset/images/zulie.png'
 import huffle from '../../asset/images/huffle.png'
+import fundo from '../../asset/images/fundo.png'
 
 //styles
 import './Project.css'
