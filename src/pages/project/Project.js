@@ -56,7 +56,7 @@ export default function Project() {
           {data && data.map(project => (
             <Link className='project__link' to={`project/${project.id}`} key={project.id}>
               <div className="project__overlay"></div>
-              <img src={project.image} alt="my movie website" />
+              <img src={project.imgURL} alt="my movie website" />
             </Link>
           ))}
         </div>
