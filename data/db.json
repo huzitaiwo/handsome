@@ -36,7 +36,7 @@
       "imgURL": "public/mymovie.png",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["", "", "", ""]
+      "images": ["public/mymovie.png", "public/mymovie.png", "public/mymovie.png", "public/mymovie.png"]
     },
     {
       "id": "2MDAF7DBVnsAqM4LCSyq",
