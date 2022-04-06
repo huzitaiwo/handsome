@@ -30,6 +30,7 @@ export default function Project() {
   const [status, setStatus] = useState(0)
 
   const { data, error, isLoading} = useFetch('http://localhost:9000/projects')
+  console.log(data)
 
   return (
     <div className='project'>
