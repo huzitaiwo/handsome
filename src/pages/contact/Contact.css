@@ -24,7 +24,6 @@ form label {
   font-weight: 600;
   padding-bottom: 10px;
 }
-
 form input,
 form textarea {
   display: block;
@@ -32,12 +31,10 @@ form textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 8px;
 }
-
 form textarea {
   height: 35px;
   resize: none;
 }
-
 form button {
   padding: 10px;
   border: none;
