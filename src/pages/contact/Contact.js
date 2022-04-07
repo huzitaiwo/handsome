@@ -13,16 +13,16 @@ export default function Contact() {
           </p>
           <div class="field-grid">
             <div class="field">
-              <label for="name">Name</label>
+              <label htmlFor="name">Name</label>
               <input type="text" id="name" required />
             </div>
             <div class="field">
-              <label for="email">Email Address</label>
+              <label htmlFor="email">Email Address</label>
               <input type="email" id="email" required />
             </div>
           </div>
           <div class="field">
-            <label for="message">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea
               name="message"
               id="message"
