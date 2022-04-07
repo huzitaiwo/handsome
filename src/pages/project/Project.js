@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 // images
 import projectManagement from '../../asset/images/project.png'
@@ -50,7 +51,9 @@ export default function Project() {
         </div>
         <div className="project__list">
           {projects && projects.map(project => (
-            <img key={project.id} src={project.image} alt="my movie website" />
+            <Link className='project__link' to={`project/${project.id}`}key={project.id}>
+              <img src={project.image} alt="my movie website" />
+            </Link>
           ))}
         </div>
       </div>

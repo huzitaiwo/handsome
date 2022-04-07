@@ -14,7 +14,7 @@ export default function Navbar() {
           <span>Handsome</span>
         </Link>
         <ul>
-          <li className='navbar__links'><Link to='/project'>Projects</Link></li>
+          <li className='navbar__links'><Link to='/projects'>Projects</Link></li>
           <li className='navbar__links'><Link to='/resume'>Resume</Link></li>
           <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>
         </ul>
