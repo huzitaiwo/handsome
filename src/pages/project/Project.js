@@ -18,8 +18,8 @@ export default function Project() {
   const websites = [
     { id: 3, image: myMovie },
     { id: 4, image: fundo },
-    { id: 4, image: zulie },
-    { id: 4, image: huffle }
+    { id: 5, image: zulie },
+    { id: 6, image: huffle }
   ]
 
   const [projects, setProjects] = useState(websites)
