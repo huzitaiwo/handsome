@@ -45,22 +45,3 @@ form button {
   margin-top: 15px;
   cursor: pointer;
 }
-
-.success {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 30px auto;
-  display: none;
-}
-
-.success.active {
-  display: flex;
-}
-
-.success-json {
-  margin-bottom: 10px;
-  width: 100px;
-}
