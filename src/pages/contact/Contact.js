@@ -32,10 +32,6 @@ export default function Contact() {
             ></textarea>
           </div>
           <button>Send Message</button>
-          {/* <div class="success">
-            <lottie-player class="success-json" src="https://assets3.lottiefiles.com/temp/lf20_MqU2rh.json"  background="transparent"  speed="1"></lottie-player>
-            <p>Thank you! Your message has been received</p>
-          </div> */}
         </form>
       </div>
     </section>
