@@ -32,7 +32,7 @@ export default function Project() {
     <div className='project'>
       <div className="container">
         <div className='project__bar'>
-          <div className="projecr__bar-content">
+          <div className="project__bar-content">
             <ul className='project__links'>
               <li><button onClick={() => {
                 setProjects(websites)
@@ -52,6 +52,7 @@ export default function Project() {
         <div className="project__list">
           {projects && projects.map(project => (
             <Link className='project__link' to={`project/${project.id}`}key={project.id}>
+              <div className="project__overlay"></div>
               <img src={project.image} alt="my movie website" />
             </Link>
           ))}
