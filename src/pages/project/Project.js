@@ -2,9 +2,10 @@ import { useState } from 'react'
 
 // images
 import projectManagement from '../../asset/images/project.png'
+import github from '../../asset/images/githubprofile.png'
 import myMovie from '../../asset/images/mymovie.png'
-import zulie from '../../asset/images/zulie.png'
 import huffle from '../../asset/images/huffle.png'
+import zulie from '../../asset/images/zulie.png'
 import fundo from '../../asset/images/fundo.png'
 
 //styles
@@ -17,9 +18,10 @@ export default function Project() {
   ]
   const websites = [
     { id: 3, image: myMovie },
-    { id: 4, image: fundo },
-    { id: 5, image: zulie },
-    { id: 6, image: huffle }
+    { id: 4, image: github },
+    { id: 6, image: fundo },
+    { id: 6, image: zulie },
+    { id: 7, image: huffle }
   ]
 
   const [projects, setProjects] = useState(websites)
