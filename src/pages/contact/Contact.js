@@ -1,6 +1,13 @@
+import { useState } from 'react'
+
+// styles
 import './Contact.css'
 
 export default function Contact() {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
   return (
     <section>
       <div class="container">
