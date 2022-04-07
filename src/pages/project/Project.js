@@ -50,8 +50,6 @@ export default function Project() {
           {projects && projects.map(project => (
             <img key={project.id} src={project.image} alt="my movie website" />
           ))}
-          {/* <img src={myMovie} alt="my movie website" />
-          <img src={projectManagement} alt="project management web app" /> */}
         </div>
       </div>
     </div>
