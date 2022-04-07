@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section>
       <div class="container">
-        <form className='contact-form'>
+        <form>
           <h2 class="secondary-heading">Let's work together</h2>
           <p class="form-paragraph">
             Have an idea or a concept that really excite you? Let's turn that idea into reality.
