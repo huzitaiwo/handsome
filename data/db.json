@@ -23,10 +23,10 @@
       "name": "Real Estate Website",
       "description": "Donec ultrices tincidunt arcu non sodales neque sodales ut. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Eleifend donec pretium vulputate sapien nec. Dignissim enim sit amet venenatis urna. Nibh venenatis cras sed felis eget. Sit amet cursus sit amet dictum sit amet. Morbi tristique senectus et netus et malesuada fames ac. Nulla at volutpat diam ut venenatis. Ornare massa eget egestas purus viverra accumsan in. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Metus aliquam eleifend mi in nulla posuere. Sed sed risus pretium quam vulputate dignissim",
       "category": "web development",
-      "imgURL": "./public/fundo.png",
+      "imgURL": "/public/fundo.png",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["public/fundo.png", "public/fundo.png", "public/fundo.png", "public/fundo.png"]
+      "images": ["/public/fundo.png", "/public/fundo.png", "/public/fundo.png", "/public/fundo.png"]
     },
     {
       "id": "T2st20GoqItaYRtbVurr",

@@ -10,28 +10,28 @@ export default function ProjectDetails() {
   return (
     <div className='project-details'>
       <section>
-        <div class="container">
-          <h1 class="project-heading">Developer Website</h1>
-          <p class="project-heading secondary">Web design</p>
+        <div className="container">
+          <h1 className="project-heading">Developer Website</h1>
+          <p className="project-heading secondary">Web design</p>
         </div>
-        {/* <img src="./img/edie-main.png" alt="" class="project-main-image" /> */}
+        <img  alt="" className="project-main-image" />
       </section>
       <section>
-        <div class="container">
-          <div class="project-grid">
-            <div class="project-information">
-              <p class="project-label">Client</p>
-              <p class="project-text">Bryan Weird</p>
-              <p class="project-label">Project type</p>
-              <p class="project-text">Web design</p>
-              <p class="project-label">Project year</p>
-              <p class="project-text">2021</p>
+        <div className="container">
+          <div className="project-grid">
+            <div className="project-information">
+              <p className="project-label">Client</p>
+              <p className="project-text">Bryan Weird</p>
+              <p className="project-label">Project type</p>
+              <p className="project-text">Web design</p>
+              <p className="project-label">Project year</p>
+              <p className="project-text">2021</p>
             </div>
-            <div class="project-description">
+            <div className="project-description">
               <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, excepturi nisi architecto fugit autem iusto. Aspernatur dolorum expedita soluta, sit error ratione modi amet itaque dicta veritatis iusto tempora hic debitis commodi exercitationem doloremque aut ipsam explicabo ipsa nobis?</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, excepturi nisi architecto fugit autem iusto. Aspernatur dolorum expedita soluta, sit error ratione modi amet itaque dicta veritatis iusto tempora hic debitis commodi exercitationem doloremque aut ipsam explicabo ipsa nobis?</p>
-              <a class="project-link btn" href="https://edieweb.netlify.app" target="_blank">View project <img src={arrowRight} alt="avist website icon" /></a>
+              <a className="project-link btn" href="https://edieweb.netlify.app" target="_blank">View project <img src={arrowRight} alt="avist website icon" /></a>
             </div>
           </div>
         </div>
