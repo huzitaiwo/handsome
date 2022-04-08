@@ -23,39 +23,49 @@
       "name": "Real Estate Website",
       "description": "Donec ultrices tincidunt arcu non sodales neque sodales ut. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Eleifend donec pretium vulputate sapien nec. Dignissim enim sit amet venenatis urna. Nibh venenatis cras sed felis eget. Sit amet cursus sit amet dictum sit amet. Morbi tristique senectus et netus et malesuada fames ac. Nulla at volutpat diam ut venenatis. Ornare massa eget egestas purus viverra accumsan in. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Metus aliquam eleifend mi in nulla posuere. Sed sed risus pretium quam vulputate dignissim",
       "category": "web development",
-      "imgURL": "/public/fundo.png",
+      "imgURL": "/public/fundo",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["/public/fundo.png", "/public/fundo.png", "/public/fundo.png", "/public/fundo.png"]
+      "images": ["/public/fundo", "/public/fundo", "/public/fundo", "/public/fundo"]
     },
     {
       "id": "T2st20GoqItaYRtbVurr",
       "name": "Movie Application",
       "description": "Lectus urna duis convallis convallis tellus. Malesuada pellentesque elit eget gravida cum. Phasellus vestibulum lorem sed risus ultricies tristique. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Aliquet enim tortor at auctor urna. Eros in cursus turpis massa tincidunt. Proin sagittis nisl rhoncus mattis rhoncus. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Sit amet aliquam id diam maecenas ultricies mi eget. Pretium viverra suspendisse potenti nullam ac tortor",
       "category": "web development",
-      "imgURL": "public/mymovie.png",
+      "imgURL": "public/mymovie",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["public/mymovie.png", "public/mymovie.png", "public/mymovie.png", "public/mymovie.png"]
+      "images": ["public/mymovie", "public/mymovie", "public/mymovie", "public/mymovie"]
     },
     {
       "id": "R9IR0R7lYgCNS2cfP1kO",
-      "name": "Web Design and Development",
+      "name": "Github profile",
       "description": "Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ac tortor vitae purus faucibus. Sollicitudin tempor id eu nisl nunc. Nibh nisl condimentum id venenatis a. Viverra nam libero justo laoreet sit amet cursus sit amet. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum",
-      "imgURL": "",
+      "imgURL": "public/github.png",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["", "", "", ""]
+      "images": ["public/github.png", "public/github.png", "public/github.png", "public/github.png"]
     },
     {
       "id": "S1Jpg8eWBSwXZR8nJuV2",
-      "name": "Web Design and Development",
+      "name": "Website Builder",
       "description": "Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. At varius vel pharetra vel turpis nunc eget lorem dolor. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Mi quis hendrerit dolor magna eget. Sapien faucibus et molestie ac feugiat sed. Velit aliquet sagittis id consectetur",
       "category": "web development",
-      "imgURL": "",
+      "imgURL": "public/huffle.png",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["", "", "", ""]
+      "images": ["public/huffle.png", "public/huffle.png", "public/huffle.png", "public/huffle.png"]
+    },
+    {
+      "id": "ypITW9HxBfEGDtD3RtLx",
+      "name": "Software Monitoring App",
+      "description": "Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. At varius vel pharetra vel turpis nunc eget lorem dolor. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Mi quis hendrerit dolor magna eget. Sapien faucibus et molestie ac feugiat sed. Velit aliquet sagittis id consectetur",
+      "category": "web development",
+      "imgURL": "public/zulie.png",
+      "year": 2022,
+      "clientName": "Warwick",
+      "images": ["public/zulie.png", "public/zulie.png", "public/zulie.png", "public/zulie.png"]
     }
   ]
 }

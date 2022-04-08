@@ -38,7 +38,7 @@ export default function Project() {
     },
     {
       "id": "R9IR0R7lYgCNS2cfP1kO",
-      "name": "Web Design and Development",
+      "name": "Github profile",
       "description": "Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ac tortor vitae purus faucibus. Sollicitudin tempor id eu nisl nunc. Nibh nisl condimentum id venenatis a. Viverra nam libero justo laoreet sit amet cursus sit amet. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum",
       "imgURL": github,
       "year": 2022,
@@ -47,7 +47,7 @@ export default function Project() {
     },
     {
       "id": "S1Jpg8eWBSwXZR8nJuV2",
-      "name": "Web Design and Development",
+      "name": "Website Builder",
       "description": "Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. At varius vel pharetra vel turpis nunc eget lorem dolor. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Mi quis hendrerit dolor magna eget. Sapien faucibus et molestie ac feugiat sed. Velit aliquet sagittis id consectetur",
       "category": "web development",
       "imgURL": huffle,
@@ -57,7 +57,7 @@ export default function Project() {
     },
     {
       "id": "ypITW9HxBfEGDtD3RtLx",
-      "name": "Web Design and Development",
+      "name": "Software Monitoring App",
       "description": "Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. At varius vel pharetra vel turpis nunc eget lorem dolor. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Mi quis hendrerit dolor magna eget. Sapien faucibus et molestie ac feugiat sed. Velit aliquet sagittis id consectetur",
       "category": "web development",
       "imgURL": zulie,
