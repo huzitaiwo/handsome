@@ -37,21 +37,21 @@ export default function Project() {
               <li><button onClick={() => {
                 setProjects(websites)
                 setStatus(0)
-                }} className={status === 0 ? 'active' : ''}>Websites</button></li>
+              }} className={status === 0 ? 'active' : ''}>Websites</button></li>
               <li><button onClick={() => {
                 setProjects(apps)
                 setStatus(1)
-                }} className={status === 1 ? 'active' : ''}>Apps</button></li>
+              }} className={status === 1 ? 'active' : ''}>Apps</button></li>
               <li><button onClick={() => {
                 setProjects([])
                 setStatus(2)
-                }} className={status === 2 ? 'active' : ''}>dApps</button></li>
+              }} className={status === 2 ? 'active' : ''}>dApps</button></li>
             </ul>
           </div>
         </div>
         <div className="project__list">
           {projects && projects.map(project => (
-            <Link className='project__link' to={`project/${project.id}`}key={project.id}>
+            <Link className='project__link' to={`project/${project.id}`} key={project.id}>
               <div className="project__overlay"></div>
               <img src={project.image} alt="my movie website" />
             </Link>
