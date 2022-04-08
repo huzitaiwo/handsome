@@ -15,23 +15,30 @@ export default function Contact() {
 
   return (
     <section>
-      <div class="container">
+      <div className="container">
         <form onSubmit={handleSubmit}>
-          <h2 class="secondary-heading">Let's work together</h2>
-          <p class="form-paragraph">
+          <h2 className="secondary-heading">Let's work together</h2>
+          <p className="form-paragraph">
             Have an idea or a concept that really excite you? Let's turn that idea into reality.
           </p>
-          <div class="field-grid">
-            <div class="field">
-              <label htmlFor="name">Name</label>
-              <input type="text" id="name" required onChange={e => setName(e.target)} value={name} />
+          <div className="field-grid">
+            <div className="field">
+              <label>
+                <span>Name</span>
+                <input 
+                  type="text"
+                  required
+                  onChange={e => setName(e.target)}
+                  value={name}
+                />
+              </label>
             </div>
-            <div class="field">
+            <div className="field">
               <label htmlFor="email">Email Address</label>
               <input type="email" id="email" required onChange={e => setEmail(e.target)} value={email} />
             </div>
           </div>
-          <div class="field">
+          <div className="field">
             <label htmlFor="message">Message</label>
             <textarea
               name="message"
