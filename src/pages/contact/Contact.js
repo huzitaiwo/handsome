@@ -19,11 +19,11 @@ export default function Contact() {
           <div class="field-grid">
             <div class="field">
               <label htmlFor="name">Name</label>
-              <input type="text" id="name" required />
+              <input type="text" id="name" required onChange={e => setName(e.target)} value={name} />
             </div>
             <div class="field">
               <label htmlFor="email">Email Address</label>
-              <input type="email" id="email" required />
+              <input type="email" id="email" required onChange={e => setEmail(e.target)} value={email} />
             </div>
           </div>
           <div class="field">
@@ -31,8 +31,7 @@ export default function Contact() {
             <textarea
               name="message"
               id="message"
-              cols="30"
-              rows="10"
+              onChange={e => setMessage(e.target)} value={message}
               required
             ></textarea>
           </div>
