@@ -13,7 +13,6 @@
 .project__bar {
   position: fixed;
   width: 100%;
-  /* z-index: -1; */
 }
 .project__list {
   margin-left: 450px;
@@ -62,7 +61,7 @@
     justify-content: flex-start;
     flex-direction: column;
   }
-  .projecr__bar-content {
+  .project__bar-content {
     width: 100%;
     height: auto;
     display: flex;
