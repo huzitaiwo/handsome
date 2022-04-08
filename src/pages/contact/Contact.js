@@ -40,19 +40,21 @@ export default function Contact() {
                   type="text"
                   required
                   onChange={e => setEmail(e.target.value)}
-                  value={name}
+                  value={email}
                 />
               </label>
             </div>
           </div>
           <div className="field">
-            <label htmlFor="message">Message</label>
-            <textarea
-              name="message"
-              id="message"
-              onChange={e => setMessage(e.target)} value={message}
-              required
-            ></textarea>
+            <label>
+              <span>Message</span>
+              <textarea
+                name="message"
+                id="message"
+                required
+                onChange={e => setMessage(e.target.value)} value={message}
+              ></textarea>
+            </label>
           </div>
           <button>Send Message</button>
         </form>
