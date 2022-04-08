@@ -71,7 +71,7 @@ export default function Project() {
 
   const [status, setStatus] = useState(0)
 
-  const { data, error, isLoading} = useFetch('http://localhost:9000/projects')
+  // const { data, error, isLoading} = useFetch('http://localhost:9000/projects')
   // console.log(data)
 
   return (
@@ -96,7 +96,7 @@ export default function Project() {
           </div>
         </div>
         <div className="project__list">
-          {data && data.map(project => (
+          {projects && projects.map(project => (
             <Link className='project__link' to={`project/${project.id}`} key={project.id}>
               <div className="project__overlay"></div>
               <img src={project.imgURL} alt="my movie website" />

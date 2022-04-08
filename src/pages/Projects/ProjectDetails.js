@@ -1,20 +1,22 @@
 import { useParams } from 'react-router-dom'
 import arrowRight from '../../asset/icon/arrow-right.svg'
+import { useFetch } from '../../hooks/useFetch'
 
 // styles
 import './ProjectDetails.css'
 
 export default function ProjectDetails() {
   const { id } = useParams()
+  const {data: project, error, isLoading} = useFetch('http://localhost:9000/projects/' + id)
 
   return (
     <div className='project-details'>
       <section>
         <div className="container">
-          <h1 className="project-heading">Developer Website</h1>
+          <h1 className="project-heading">{project.name}</h1>
           <p className="project-heading secondary">Web design</p>
         </div>
-        <img  alt="" className="project-main-image" />
+        <img  alt={project.imgURL} className="project-main-image" />
       </section>
       <section>
         <div className="container">
