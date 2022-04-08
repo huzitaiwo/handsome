@@ -8,10 +8,15 @@ export default function Contact() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
+  const handleSubmit = e => {
+    e.preventDefault()
+    console.log(name, email, message)
+  }
+
   return (
     <section>
       <div class="container">
-        <form>
+        <form onSubmit={handleSubmit}>
           <h2 class="secondary-heading">Let's work together</h2>
           <p class="form-paragraph">
             Have an idea or a concept that really excite you? Let's turn that idea into reality.
