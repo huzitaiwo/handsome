@@ -10,7 +10,9 @@ export default function Contact() {
 
   const handleSubmit = e => {
     e.preventDefault()
-    console.log(name, email, message)
+    setName('')
+    setEmail('')
+    setMessage('')
   }
 
   return (
