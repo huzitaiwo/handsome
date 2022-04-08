@@ -28,14 +28,21 @@ export default function Contact() {
                 <input 
                   type="text"
                   required
-                  onChange={e => setName(e.target)}
+                  onChange={e => setName(e.target.value)}
                   value={name}
                 />
               </label>
             </div>
             <div className="field">
-              <label htmlFor="email">Email Address</label>
-              <input type="email" id="email" required onChange={e => setEmail(e.target)} value={email} />
+              <label>
+                <span>Email Address</span>
+                <input 
+                  type="text"
+                  required
+                  onChange={e => setEmail(e.target.value)}
+                  value={name}
+                />
+              </label>
             </div>
           </div>
           <div className="field">
