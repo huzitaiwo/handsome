@@ -8,7 +8,7 @@ export default function ProjectDetails() {
   const { id } = useParams()
 
   return (
-    <div>
+    <div className='project-details'>
       <section>
         <div class="container">
           <h1 class="project-heading">Developer Website</h1>

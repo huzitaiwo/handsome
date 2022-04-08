@@ -1,47 +1,47 @@
-.project-heading {
+.project-details .project-heading {
   padding-bottom: 5px;
   font-size: 28px;
   max-width: 500px;
   line-height: 1;
   font-family: "DM Serif Display", serif;
 }
-.secondary {
+.project-details .secondary {
   color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
 }
-.project-main-image {
+.project-details .project-main-image {
   height: 500px;
   width: 100%;
   object-fit: cover;
 }
-.project-grid {
+.project-details .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 14px;
   gap: 30px;
 }
-.project-label {
+.project-details .project-label {
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: 10px;
   letter-spacing: 1px;
 }
-.project-text {
+.project-details .project-text {
   color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
 }
-.project-description h2 {
+.project-details .project-description h2 {
   font-size: 20px;
   line-height: 1.1;
   padding-bottom: 30px;
 }
-.project-description p {
+.project-details .project-description p {
   color: rgba(0, 0, 0, 0.7);
   font-size: 14px;
   padding-bottom: 10px;
   line-height: 1.5;
 }
-.btn {
+.project-details .btn {
   display: flex;
   margin-top: 30px;
   padding: 10px 15px;
@@ -50,6 +50,6 @@
   color: #fff;
   text-decoration: none;
 }
-.project-link img {
+.project-details .project-link img {
   margin-left: 5px;
 }

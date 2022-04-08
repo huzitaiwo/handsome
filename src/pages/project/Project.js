@@ -21,20 +21,20 @@ export default function Project() {
       "name": "Real Estate Website",
       "description": "Donec ultrices tincidunt arcu non sodales neque sodales ut. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Eleifend donec pretium vulputate sapien nec. Dignissim enim sit amet venenatis urna. Nibh venenatis cras sed felis eget. Sit amet cursus sit amet dictum sit amet. Morbi tristique senectus et netus et malesuada fames ac. Nulla at volutpat diam ut venenatis. Ornare massa eget egestas purus viverra accumsan in. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Metus aliquam eleifend mi in nulla posuere. Sed sed risus pretium quam vulputate dignissim",
       "category": "web development",
-      "imgURL": {fundo},
+      "imgURL": fundo,
       "year": 2022,
       "clientName": "Warwick",
-      "images": [{fundo}, {fundo}, {fundo}, {fundo}]
+      "images": [fundo, fundo, fundo, fundo]
     },
     {
       "id": "T2st20GoqItaYRtbVurr",
       "name": "Movie Application",
       "description": "Lectus urna duis convallis convallis tellus. Malesuada pellentesque elit eget gravida cum. Phasellus vestibulum lorem sed risus ultricies tristique. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Aliquet enim tortor at auctor urna. Eros in cursus turpis massa tincidunt. Proin sagittis nisl rhoncus mattis rhoncus. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Sit amet aliquam id diam maecenas ultricies mi eget. Pretium viverra suspendisse potenti nullam ac tortor",
       "category": "web development",
-      "imgURL": {myMovie},
+      "imgURL": myMovie,
       "year": 2022,
       "clientName": "Warwick",
-      "images": [{myMovie}, {myMovie}, {myMovie}, {myMovie}]
+      "images": [myMovie, myMovie, myMovie, myMovie]
     },
     {
       "id": "R9IR0R7lYgCNS2cfP1kO",
@@ -72,7 +72,7 @@ export default function Project() {
   const [status, setStatus] = useState(0)
 
   // const { data, error, isLoading} = useFetch('http://localhost:9000/projects')
-  console.log(data)
+  // console.log(data)
 
   return (
     <div className='project'>
