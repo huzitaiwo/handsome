@@ -6,6 +6,7 @@ import { useFetch } from '../../hooks/useFetch'
 import './ProjectDetails.css'
 
 export default function ProjectDetails() {
+  const path = '../../../public'
   const { id } = useParams()
   const {data: project, error, isLoading} = useFetch('http://localhost:9000/projects/' + id)
 
@@ -16,7 +17,7 @@ export default function ProjectDetails() {
           <h1 className="project-heading">{project.name}</h1>
           <p className="project-heading secondary">{project.category}</p>
         </div>
-        <img src={project.imgURL} alt={project.name} className="project-main-image" />
+        <img src={path + project.imgURL} alt={project.name} className="project-main-image" />
       </section>
       <section>
         <div className="container">
