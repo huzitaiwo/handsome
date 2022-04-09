@@ -1,11 +1,12 @@
 import { useParams } from 'react-router-dom'
 import arrowRight from '../../asset/icon/arrow-right.svg'
 import { useFetch } from '../../hooks/useFetch'
+// import smth from '../../../public/'
 
 // styles
 import './ProjectDetails.css'
 
-const path = '../../asset/images'
+const path = '../../'
 
 export default function ProjectDetails() {
   const { id } = useParams()
