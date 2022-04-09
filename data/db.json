@@ -43,6 +43,7 @@
       "name": "Github profile",
       "description": "Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ac tortor vitae purus faucibus. Sollicitudin tempor id eu nisl nunc. Nibh nisl condimentum id venenatis a. Viverra nam libero justo laoreet sit amet cursus sit amet. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum",
       "imgURL": "public/github.png",
+      "category": "web development",
       "year": 2022,
       "clientName": "Warwick",
       "images": ["public/github.png", "public/github.png", "public/github.png", "public/github.png"]
