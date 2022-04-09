@@ -6,29 +6,24 @@ form {
   flex-direction: column;
   box-shadow: 28px 28px 150px 0 rgb(0 0 0 / 15%);
 }
-
 .form-paragraph {
   color: rgba(0, 0, 0, 0.8);
   padding-bottom: 15px;
 }
-
 .field-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 30px;
 }
-
 .field {
   margin-bottom: 15px;
 }
-
 form label {
   display: block;
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: 10px;
 }
-
 form input,
 form textarea {
   display: block;
@@ -36,12 +31,10 @@ form textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 8px;
 }
-
 form textarea {
   min-height: 100px;
   resize: none;
 }
-
 form button {
   padding: 10px;
   border: none;
