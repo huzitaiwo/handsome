@@ -5,8 +5,9 @@ import { useFetch } from '../../hooks/useFetch'
 // styles
 import './ProjectDetails.css'
 
+const path = '../../asset/images'
+
 export default function ProjectDetails() {
-  const path = '../../../public'
   const { id } = useParams()
   const {data: project, error, isLoading} = useFetch('http://localhost:9000/projects/' + id)
 
