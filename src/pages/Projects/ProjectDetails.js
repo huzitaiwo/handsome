@@ -7,16 +7,23 @@ import './ProjectDetails.css'
 
 export default function ProjectDetails() {
   const { id } = useParams()
-  const { document, isLoading, error } = useDocument('projects', id)
+  const { document: project, isLoading, error } = useDocument('projects', id)
+
+  if(isLoading) {
+    return <h3>Loading...</h3>
+  }
+  if(error) {
+    return <h3>{error}</h3>
+  }
 
   return (
     <div className='project-details'>
       <section>
         <div className="container">
           <h1 className="project-heading">{project.name}</h1>
-          <p className="project-heading secondary">{project.category}</p>
+          <p className="project-heading secondary">{project.type}</p>
         </div>
-        <img src={path + project.imgURL} alt={project.name} className="project-main-image" />
+        <img src={project.photoURL} alt={project.name} className="project-main-image" />
       </section>
       <section>
         <div className="container">
@@ -25,12 +32,12 @@ export default function ProjectDetails() {
               <p className="project-label">Client</p>
               <p className="project-text">{project.clientName}</p>
               <p className="project-label">Project type</p>
-              <p className="project-text">{project.category}</p>
+              <p className="project-text">{project.type}</p>
               <p className="project-label">Project year</p>
               <p className="project-text">{project.year}</p>
             </div>
             <div className="project-description">
-              <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+              <h2>{project.descriptionTitle}</h2>
               <p>{project.description}</p>
               <a className="project-link btn" href="https://edieweb.netlify.app" target="_blank">View project <img src={arrowRight} alt="avist website icon" /></a>
             </div>
