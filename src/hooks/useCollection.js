@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-import { projectFirestore } from '../firebase/config'
+import { Firestore } from '../firebase/config'
 
 export const useCollection = (collection, _query, _orderBy) => {
   const [documents, setDocuments] = useState(null)
@@ -13,7 +13,7 @@ export const useCollection = (collection, _query, _orderBy) => {
 
   useEffect(() => {
     setIsLoading(true)
-    let ref = projectFirestore.collection(collection)
+    let ref = Firestore.collection(collection)
 
     if (query) {
       ref = ref.where(...query)

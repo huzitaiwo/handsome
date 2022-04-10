@@ -16,6 +16,8 @@ export default function Project() {
     return <h3>{error}</h3>
   }
 
+  console.log(documents)
+
   return (
     <div className='project'>
       <div className="container">
@@ -34,14 +36,14 @@ export default function Project() {
             </ul>
           </div>
         </div>
-        <div className="project__list">
+        {/* <div className="project__list">
           {projects && projects.map(project => (
             <Link className='project__link' to={`project/${project.id}`} key={project.id}>
               <div className="project__overlay"></div>
               <img src={project.imgURL} alt="my movie website" />
             </Link>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   )
