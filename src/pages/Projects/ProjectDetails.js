@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import arrowRight from '../../asset/icon/arrow-right.svg'
+import { useDocument } from '../../firebase/config'
 
 // styles
 import './ProjectDetails.css'
