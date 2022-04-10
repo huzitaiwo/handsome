@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import arrowRight from '../../asset/icon/arrow-right.svg'
-import { useDocument } from '../../firebase/config'
+import { useDocument } from '../../hooks/useDocument'
 
 // styles
 import './ProjectDetails.css'
@@ -39,7 +39,7 @@ export default function ProjectDetails() {
             <div className="project-description">
               <h2>{project.descriptionTitle}</h2>
               <p>{project.description}</p>
-              <a className="project-link btn" href="https://edieweb.netlify.app" target="_blank">View project <img src={arrowRight} alt="avist website icon" /></a>
+              <a className="project-link btn" href={project.URL} target="_blank" rel="noreferrer">View project <img src={arrowRight} alt="visit website" /></a>
             </div>
           </div>
         </div>
