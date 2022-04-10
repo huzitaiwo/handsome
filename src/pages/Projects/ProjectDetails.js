@@ -1,16 +1,11 @@
 import { useParams } from 'react-router-dom'
 import arrowRight from '../../asset/icon/arrow-right.svg'
-import { useFetch } from '../../hooks/useFetch'
-// import smth from '../../../public/'
 
 // styles
 import './ProjectDetails.css'
 
-const path = '../../'
-
 export default function ProjectDetails() {
   const { id } = useParams()
-  const {data: project, error, isLoading} = useFetch('http://localhost:9000/projects/' + id)
 
   return (
     <div className='project-details'>
