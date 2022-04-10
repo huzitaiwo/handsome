@@ -42,9 +42,9 @@ export default function ProjectDetails() {
                 </div>
                 <div className="project-description">
                   <h2>{project.descriptionTitle}</h2>
-                  <p>{project.description}</p>
+                  <p>{project.description }</p>
                   <a className="project-link btn" href={project.URL} target="_blank" rel="noreferrer">View project <img src={arrowRight} alt="visit website" /></a>
-                </div>
+                </div> 
               </div>
             </div>
           </section>
