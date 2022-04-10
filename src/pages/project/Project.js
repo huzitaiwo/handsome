@@ -1,13 +1,20 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useColleaction } from '../../hooks/useCollection'
+import { useCollection } from '../../hooks/useCollection'
 
 //styles
 import './Project.css'
 
 export default function Project() {
-  const {}
+  const { documents, isLoading, error } = useCollection('projects')
   const [status, setStatus] = useState(0)
+
+  if(isLoading) {
+    return <h3>Loading...</h3>
+  }
+  if(error) {
+    return <h3>{error}</h3>
+  }
 
   return (
     <div className='project'>
@@ -16,15 +23,12 @@ export default function Project() {
           <div className="project__bar-content">
             <ul className='project__links'>
               <li><button onClick={() => {
-                setProjects(websites)
                 setStatus(0)
               }} className={status === 0 ? 'active' : ''}>Websites</button></li>
               <li><button onClick={() => {
-                setProjects(apps)
                 setStatus(1)
               }} className={status === 1 ? 'active' : ''}>Apps</button></li>
               <li><button onClick={() => {
-                setProjects([])
                 setStatus(2)
               }} className={status === 2 ? 'active' : ''}>dApps</button></li>
             </ul>
