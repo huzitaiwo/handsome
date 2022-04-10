@@ -7,6 +7,7 @@ import './ProjectDetails.css'
 
 export default function ProjectDetails() {
   const { id } = useParams()
+  const { document, isLoading, error } = useDocument('projects', id)
 
   return (
     <div className='project-details'>
