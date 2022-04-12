@@ -22,7 +22,7 @@ export default function Project() {
       "description": "Donec ultrices tincidunt arcu non sodales neque sodales ut. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Eleifend donec pretium vulputate sapien nec. Dignissim enim sit amet venenatis urna. Nibh venenatis cras sed felis eget. Sit amet cursus sit amet dictum sit amet. Morbi tristique senectus et netus et malesuada fames ac. Nulla at volutpat diam ut venenatis. Ornare massa eget egestas purus viverra accumsan in. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Metus aliquam eleifend mi in nulla posuere. Sed sed risus pretium quam vulputate dignissim",
       "category": "web development",
       "imgURL": fundo,
-      "year": 2022,
+      "year": 2021,
       "clientName": "Warwick",
       "images": [fundo, fundo, fundo, fundo]
     },
@@ -51,7 +51,7 @@ export default function Project() {
       "description": "Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. At varius vel pharetra vel turpis nunc eget lorem dolor. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Mi quis hendrerit dolor magna eget. Sapien faucibus et molestie ac feugiat sed. Velit aliquet sagittis id consectetur",
       "category": "web development",
       "imgURL": huffle,
-      "year": 2022,
+      "year": 2021,
       "clientName": "Warwick",
       "images": [huffle, huffle, huffle, huffle]
     },
@@ -61,7 +61,7 @@ export default function Project() {
       "description": "Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ullamcorper eget nulla facilisi etiam dignissim. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. At varius vel pharetra vel turpis nunc eget lorem dolor. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Mi quis hendrerit dolor magna eget. Sapien faucibus et molestie ac feugiat sed. Velit aliquet sagittis id consectetur",
       "category": "web development",
       "imgURL": zulie,
-      "year": 2022,
+      "year": 2021,
       "clientName": "Warwick",
       "images": [zulie, zulie, zulie, zulie]
     }
