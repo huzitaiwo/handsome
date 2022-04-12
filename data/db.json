@@ -33,10 +33,10 @@
       "name": "Movie Application",
       "description": "Lectus urna duis convallis convallis tellus. Malesuada pellentesque elit eget gravida cum. Phasellus vestibulum lorem sed risus ultricies tristique. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Aliquet enim tortor at auctor urna. Eros in cursus turpis massa tincidunt. Proin sagittis nisl rhoncus mattis rhoncus. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Sit amet aliquam id diam maecenas ultricies mi eget. Pretium viverra suspendisse potenti nullam ac tortor",
       "category": "web development",
-      "imgURL": "public/mymovie",
+      "imgURL": "public/mymovie.png",
       "year": 2022,
       "clientName": "Warwick",
-      "images": ["public/mymovie", "public/mymovie", "public/mymovie", "public/mymovie"]
+      "images": ["public/mymovie.png", "public/mymovie.png", "public/mymovie.png", "public/mymovie.png"]
     },
     {
       "id": "R9IR0R7lYgCNS2cfP1kO",

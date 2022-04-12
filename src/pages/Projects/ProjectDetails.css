@@ -1,47 +1,47 @@
-.project-details .project-heading {
+.project-heading {
   padding-bottom: 5px;
   font-size: 28px;
   max-width: 500px;
   line-height: 1;
   font-family: "DM Serif Display", serif;
 }
-.project-details .secondary {
+.secondary {
   color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
 }
-.project-details .project-main-image {
+.project-main-image {
   height: 500px;
   width: 100%;
   object-fit: cover;
 }
-.project-details .project-grid {
+.project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 14px;
   gap: 30px;
 }
-.project-details .project-label {
+.project-label {
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: 10px;
   letter-spacing: 1px;
 }
-.project-details .project-text {
+.project-text {
   color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
 }
-.project-details .project-description h2 {
+.project-description h2 {
   font-size: 20px;
   line-height: 1.1;
   padding-bottom: 30px;
 }
-.project-details .project-description p {
+.project-description p {
   color: rgba(0, 0, 0, 0.7);
   font-size: 14px;
   padding-bottom: 10px;
   line-height: 1.5;
 }
-.project-details .btn {
+.btn {
   display: flex;
   margin-top: 30px;
   padding: 10px 15px;
@@ -50,6 +50,45 @@
   color: #fff;
   text-decoration: none;
 }
-.project-details .project-link img {
+.project-link img {
   margin-left: 5px;
+}
+
+/* tablet - 768px */
+@media (max-width: 768px) {
+  .secondary {
+    padding-bottom: 30px;
+  }
+  .project-main-image {
+    height: 300px;
+  }
+  .project-grid {
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+/* mobile landscape - 678px */
+@media (max-width: 678px) {
+  .secondary {
+    padding-bottom: 15px;
+  }
+  .project-main-image {
+    height: 250px;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-text {
+    padding-bottom: 15px;
+  }
+  .project-label {
+    padding-bottom: 5px;
+  }
+}
+
+/* mobile portrait - 512px */
+@media (max-width: 512px) {
+  .project-heading {
+    font-size: 24px;
+  }
 }
