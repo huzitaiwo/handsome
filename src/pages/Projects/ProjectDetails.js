@@ -16,7 +16,7 @@ export default function ProjectDetails() {
           <h1 className="project-heading">{project.name}</h1>
           <p className="project-heading secondary">{project.category}</p>
         </div>
-        <img src={project.imgURL} alt={project.nama} className="project-main-image" />
+        <img src={project.imgURL} alt={project.name} className="project-main-image" />
       </section>
       <section>
         <div className="container">
