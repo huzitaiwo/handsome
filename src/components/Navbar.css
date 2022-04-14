@@ -50,7 +50,7 @@
   border: none;
   padding: 5px 7px;
   border-radius: 4px;
-  /* display: none; */
+  display: none;
 }
 
 /* mobile landscape - 678px */
@@ -86,9 +86,9 @@
   .navbar .hi:hover {
     background: none;
   }
-  /* .navbar .toggler {
+  .navbar .toggler {
     display: initial;
-  } */
+  }
 }
 
 @media (max-width: 512px) {
