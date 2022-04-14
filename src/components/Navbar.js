@@ -11,10 +11,13 @@ export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(true)
 
   useEffect(() => {
-    if (window.innerWidth <= 678) {
+    if (window.innerWidth <= '678px') {
       setMobileMenu(false)
     }
-  }, [window.innerWidth])
+    if (window.innerWidth > '678px') {
+      setMobileMenu(true)
+    }
+  }, [])
 
   const handleToggleMenu = () => {
     if(mobileMenu) {
