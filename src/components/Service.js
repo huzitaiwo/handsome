@@ -12,9 +12,7 @@ export default function Service() {
   if(error) {
     return <h3>{error}</h3>
   }
-  if(services) {
-    console.log(services)
-  }
+  console.log(services)
 
   return (
     <section className='service'>
