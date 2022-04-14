@@ -21,7 +21,7 @@ export default function Service() {
 
         <div className="service-list">
           <ul className='service-list__content'>
-            {services.map(service => (
+            {services && services.map(service => (
               <li key={service.id}>
                 <img src={service.photoURL} alt={service.title} />
                 <div className="content">
