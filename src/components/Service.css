@@ -27,6 +27,11 @@
   margin-bottom: 15px;
 }
 
+.service-list__content .service-image {
+  height: 250px;
+  object-fit: cover;
+}
+
 @media (max-width: 860px) {
   .service-list__content li {
     grid-template-columns: 1fr;

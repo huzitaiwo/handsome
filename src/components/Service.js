@@ -4,7 +4,7 @@ import { useCollection } from '../hooks/useCollection'
 import './Service.css'
 
 export default function Service() {
-  const { document: services, isLoading, error } = useCollection('services')
+  const { documents: services, isLoading, error } = useCollection('services')
 
   if(isLoading) {
     return <h3>Loading...</h3>
@@ -24,7 +24,7 @@ export default function Service() {
           <ul className='service-list__content'>
             {services && services.map(service => (
               <li key={service.id}>
-                <img src={service.photoURL} alt={service.title} />
+                <img className='service-image' src={service.photoURL} alt={service.title} />
                 <div className="content">
                   <h3>{service.title}</h3>
                   <p className='description'>{service.description}</p>
