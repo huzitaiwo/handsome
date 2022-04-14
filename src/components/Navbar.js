@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import brand from '../asset/icon/logo.svg'
 import hamburger from '../asset/icon/hamburger.svg'
@@ -9,6 +9,13 @@ import './Navbar.css'
 
 export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(true)
+
+  useEffect(() => {
+    if (window.innerWidth <= 678) {
+      setMobileMenu(false)
+    }
+  }, [window.innerWidth])
+
 
   return (
     <nav className='navbar'>
@@ -25,8 +32,8 @@ export default function Navbar() {
           </ul>
         )}
         <div className="toggler">
-          <img className='hamburger' src={hamburger} alt="" />
-          <img className='close' src={close} alt="" />
+          {!mobileMenu && <img className='hamburger' src={hamburger} alt="" />}
+          {mobileMenu && <img className='close' src={close} alt="" />}
         </div>
       </div>
     </nav>

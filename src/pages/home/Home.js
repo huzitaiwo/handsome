@@ -7,7 +7,7 @@ import Contact from '../contact/Contact'
 
 export default function Home() {
   return (
-    <div>
+    <div className='home'>
       <Banner />
       <Service />
       <Contact />
