@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import { useCollection } from '../hooks/useCollection'
+
 // styles
 import './Service.css'
 
@@ -11,6 +11,9 @@ export default function Service() {
   }
   if(error) {
     return <h3>{error}</h3>
+  }
+  if(services) {
+    console.log(services)
   }
 
   return (
