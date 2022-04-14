@@ -8,26 +8,13 @@ import close from '../asset/icon/close.svg'
 import './Navbar.css'
 
 export default function Navbar() {
-  const [mobileMenu, setMobileMenu] = useState(true)
+  const [mobileMenu, setMobileMenu] = useState(false)
 
-  useEffect(() => {
-    if (window.innerWidth <= '678px') {
-      setMobileMenu(false)
-    }
-    if (window.innerWidth > '678px') {
-      setMobileMenu(true)
-    }
-  }, [])
-
-  const handleToggleMenu = () => {
-    if(mobileMenu) {
-      setMobileMenu(false)
-    }
-    if(!mobileMenu) {
-      setMobileMenu(true)
-    }
+  const toggleNavigation = () => {
+    setMobileMenu(!mobileMenu)
   }
 
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
   return (
     <nav className='navbar'>
@@ -43,7 +30,7 @@ export default function Navbar() {
             <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>
           </ul>
         )}
-        <button className="toggler" onClick={handleToggleMenu}>
+        <button className="toggler" onClick={toggleNavigation}>
           {!mobileMenu && <img className='hamburger' src={hamburger} alt="" />}
           {mobileMenu && <img className='close' src={close} alt="" />}
         </button>
