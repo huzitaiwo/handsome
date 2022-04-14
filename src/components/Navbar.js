@@ -16,6 +16,22 @@ export default function Navbar() {
 
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
+  useEffect(() => {
+
+    const changeWidth = () => {
+      setScreenWidth(window.innerWidth);
+    }
+
+    window.addEventListener('resize', changeWidth)
+
+    // cleanup function
+    return () => {
+      window.removeEventListener('resize', changeWidth)
+    }
+
+
+  }, [])
+
   return (
     <nav className='navbar'>
       <div className="container">
@@ -23,7 +39,7 @@ export default function Navbar() {
           <img src={brand} alt="brand" />
           <span>Handsome</span>
         </Link>
-        {mobileMenu && (
+        {(mobileMenu || screenWidth > 678) && (
           <ul>
             <li className='navbar__links'><Link to='/projects'>Projects</Link></li>
             <li className='navbar__links'><Link to='/resume'>Resume</Link></li>
