@@ -45,7 +45,11 @@
   color: #fff;
 }
 .navbar .toggler {
-  display: none;
+  background: none;
+  cursor: pointer;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 4px;
 }
 
 /* mobile landscape - 678px */
@@ -80,9 +84,6 @@
   }
   .navbar .hi:hover {
     background: none;
-  }
-  .navbar .toggler {
-    display: initial;
   }
 }
 

@@ -16,6 +16,15 @@ export default function Navbar() {
     }
   }, [window.innerWidth])
 
+  const handleToggleMenu = () => {
+    if(mobileMenu) {
+      setMobileMenu(false)
+    }
+    if(!mobileMenu) {
+      setMobileMenu(true)
+    }
+  }
+
 
   return (
     <nav className='navbar'>
@@ -31,10 +40,10 @@ export default function Navbar() {
             <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>
           </ul>
         )}
-        <div className="toggler">
+        <button className="toggler" onClick={handleToggleMenu}>
           {!mobileMenu && <img className='hamburger' src={hamburger} alt="" />}
           {mobileMenu && <img className='close' src={close} alt="" />}
-        </div>
+        </button>
       </div>
     </nav>
   )
