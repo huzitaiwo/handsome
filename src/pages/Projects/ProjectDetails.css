@@ -70,6 +70,9 @@
 
 /* mobile landscape - 678px */
 @media (max-width: 678px) {
+  .project-details {
+    margin-top: 10vh;
+  }
   .secondary {
     padding-bottom: 15px;
   }
