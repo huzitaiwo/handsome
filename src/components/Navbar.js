@@ -8,7 +8,7 @@ import close from '../asset/icon/close.svg'
 import './Navbar.css'
 
 export default function Navbar() {
-  const [mobileMenu, setMobileMenu] = useState()
+  const [mobileMenu, setMobileMenu] = useState(true)
 
   return (
     <nav className='navbar'>
@@ -17,11 +17,13 @@ export default function Navbar() {
           <img src={brand} alt="brand" />
           <span>Handsome</span>
         </Link>
-        <ul>
-          <li className='navbar__links'><Link to='/projects'>Projects</Link></li>
-          <li className='navbar__links'><Link to='/resume'>Resume</Link></li>
-          <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>
-        </ul>
+        {mobileMenu && (
+          <ul>
+            <li className='navbar__links'><Link to='/projects'>Projects</Link></li>
+            <li className='navbar__links'><Link to='/resume'>Resume</Link></li>
+            <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>
+          </ul>
+        )}
         <div className="toggler">
           <img className='hamburger' src={hamburger} alt="" />
           <img className='close' src={close} alt="" />
