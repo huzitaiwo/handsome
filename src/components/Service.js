@@ -12,7 +12,6 @@ export default function Service() {
   if(error) {
     return <h3>{error}</h3>
   }
-  console.log(services)
 
   return (
     <section className='service'>
