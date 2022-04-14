@@ -12,8 +12,8 @@ export default function Banner() {
       <div className="container">
         <div className="container__content">
           <span>&#128075; Welcome!</span>
-          <h2>I'm a Frontend Developer and Software Engineer from somewhere</h2>
-          <p>I have <small>2 years</small> of experience of creating functional high-performing, content-driven, optimized websites and web applications.</p>
+          <h2>I'm a Frontend Developer and Software Engineer from Nigeria</h2>
+          <p>I have <small>2 years</small> of experience in creating functional high-performing, content-driven, optimized websites and web applications.</p>
           <div className="follow">
             <p>Follow me on:</p>
             <ul className='social-links'>
