@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import Project from './pages/project/Project'
 import Contact from './pages/contact/Contact'
 import ProjectDetails from './pages/Projects/ProjectDetails'
+import Resume from './pages/Resume'
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact />
+          </Route>
+          <Route path='/resume'>
+            <Resume />
           </Route>
         </Switch>
       </BrowserRouter>
