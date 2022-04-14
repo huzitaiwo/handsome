@@ -1,11 +1,15 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import brand from '../asset/icon/logo.svg'
 import hamburger from '../asset/icon/hamburger.svg'
+import close from '../asset/icon/close.svg'
 
 // style
 import './Navbar.css'
 
 export default function Navbar() {
+  const [mobileMenu, setMobileMenu] = useState()
+
   return (
     <nav className='navbar'>
       <div className="container">
@@ -20,7 +24,7 @@ export default function Navbar() {
         </ul>
         <div className="toggler">
           <img className='hamburger' src={hamburger} alt="" />
-          {/* <img className='close' src={close} alt="" /> */}
+          <img className='close' src={close} alt="" />
         </div>
       </div>
     </nav>
