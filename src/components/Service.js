@@ -1,28 +1,10 @@
 import { useState } from 'react'
-import thumbnail from '../asset/images/mymovie.png'
+import { useCollection } from '../hooks/useCollection'
 // styles
 import './Service.css'
 
 export default function Service() {
-  const [services] = useState(
-    [
-      {
-        "id": "1",
-        "title": "Web Design and Development",
-        "description": "Nunc eleifend tristique nunc vel ultricies. Sed interdum nisi dignissim mi tristique, sed cursus arcu feugiat. Mauris ex nisi, ullamcorper et eros et, aliquet placerat ex. Nam metus urna, feugiat ac libero vitae."
-      },
-      {
-        "id": "2",
-        "title": "Web3.0 and Blockhain Development",
-        "description": "Etiam vel ante risus. Integer ultrices egestas lacus id faucibus. Suspendisse eleifend nibh eu faucibus consectetur. Etiam ut mi tristique, dignissim sem in, vestibulum dui. Aliquam tempor facilisis tortor a fermentum."
-      },
-      {
-        "id": "3",
-        "title": "Webflow magic",
-        "description": "Aliquam non enim efficitur, feugiat urna quis, placerat ex. Cras risus lorem, placerat vitae hendrerit non, elementum at mi. Nam massa nunc, pharetra bibendum massa et, pellentesque pharetra risus."
-      }
-    ]
-  )
+  const { document: services, isLoading, error } = useCollection('services')
 
   return (
     <section className='service'>
