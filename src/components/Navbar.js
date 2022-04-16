@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 import brand from '../asset/icon/logo.svg'
 import hamburger from '../asset/icon/hamburger.svg'
+import hamburgerDark from '../asset/icon/hamburger_dark.svg'
 import close from '../asset/icon/close.svg'
+import closeDark from '../asset/icon/close_dark.svg'
 
 export default function Navbar() {
   const { mode } = useTheme()
@@ -50,8 +52,18 @@ export default function Navbar() {
           </ul>
         )}
         <button className="toggler" onClick={toggleNavigation}>
-          {!mobileMenu && <img className='hamburger' src={hamburger} alt="" />}
-          {mobileMenu && <img className='close' src={close} alt="" />}
+          {!mobileMenu && (
+            <>
+             {mode === 'light' && <img className='hamburger' src={hamburgerDark} alt="" />}
+             {mode === 'dark' && <img className='hamburger' src={hamburger} alt="" />}
+            </>
+          )}
+          {!mobileMenu && (
+            <>
+             {mode === 'light' && <img className='close' src={closeDark} alt="" />}
+             {mode === 'dark' && <img className='close' src={close} alt="" />}
+            </>
+          )}
         </button>
       </div>
     </nav>
