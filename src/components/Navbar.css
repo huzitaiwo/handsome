@@ -55,7 +55,7 @@
   background: #6d4ed7;
   cursor: pointer;
 }
-.navbar .hi a {
+.navbar .hi a.dark {
   color: #fff;
 }
 .navbar .toggler {

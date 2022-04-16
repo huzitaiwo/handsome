@@ -58,7 +58,7 @@ export default function Navbar() {
              {mode === 'dark' && <img className='hamburger' src={hamburger} alt="" />}
             </>
           )}
-          {!mobileMenu && (
+          {mobileMenu && (
             <>
              {mode === 'light' && <img className='close' src={closeDark} alt="" />}
              {mode === 'dark' && <img className='close' src={close} alt="" />}
