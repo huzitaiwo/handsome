@@ -85,7 +85,10 @@
     height: 90vh;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+  }
+  .navbar .navbar__links, .navbar .hi {
+    margin: 30px 0 30px 30px;
   }
   .navbar ul.dark {
     background: #13192e;
@@ -93,7 +96,6 @@
   .navbar .hi {
     border-radius: none;
     background: none;
-    margin: 0;
     border: none;
   }
   .navbar .hi.dark {

@@ -33,6 +33,9 @@
 }
 
 @media (max-width: 860px) {
+  .service-list__content {
+    border: none;
+  }
   .service-list__content li {
     grid-template-columns: 1fr;
   }
@@ -42,7 +45,6 @@
 }
 
 @media (max-width: 512px) {
-  .service-list__content,
   .service-list__content li {
     gap: 30px;
   }
