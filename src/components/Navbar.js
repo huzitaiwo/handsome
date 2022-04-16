@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className="container">
         <Link to='/' className="brand">
           <img src={brand} alt="brand" />
-          <span>Handsome</span>
+          <span>Hussen Taiwo</span>
         </Link>
         {(mobileMenu || screenWidth > 678) && (
           <ul>

@@ -3,8 +3,24 @@
   color: #251a59;
   padding: 120px 0;
 }
+.banner.dark {
+  background: #251a59;
+  color: #ae9ce9;
+}
+
+/* purple #ae9ce9, #251a59, #6d4ed7 */
+
+/* green #9ce9df #40ac9a, #1a5559 */
 
 /* 7055d8 */
+.banner .container {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  align-items: center;
+}
+.banner .banner-thumbnail {
+  width: 100%;
+}
 .banner span {
   display: inline-block;
   font-weight: 500;
@@ -42,6 +58,14 @@
   filter: invert(0.1);
 }
 
+@media (max-width: 987px) {
+  .banner .container {
+    grid-template-columns: 1fr;
+  }
+  .banner .banner-thumbnail {
+    display: none;
+  }
+}
 @media (max-width: 678px) {
   .banner {
     padding: 60px 0;

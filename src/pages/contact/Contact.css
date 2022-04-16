@@ -45,6 +45,9 @@ form button {
   margin-top: 15px;
   cursor: pointer;
 }
+form button:hover {
+  background: #3f2691;
+}
 
 /* tablet - 768px */
 @media (max-width: 768px) {

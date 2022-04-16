@@ -1,0 +1,11 @@
+.theme-selector {
+  background: #ae9ce9;
+}
+
+.theme-selector .mode-toggler {
+  background: none;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}

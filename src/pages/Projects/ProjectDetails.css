@@ -9,6 +9,9 @@
   color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
 }
+.secondary.dark {
+  color: rgba(255, 255, 255, 0.7);
+}
 .project-main-image {
   height: 500px;
   width: 100%;
@@ -30,6 +33,9 @@
   color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
 }
+.project-text.dark {
+  color: rgba(255, 255, 255, 0.7);
+}
 .project-description h2 {
   font-size: 20px;
   line-height: 1.1;
@@ -41,6 +47,9 @@
   padding-bottom: 10px;
   line-height: 1.5;
 }
+.project-description p.dark {
+  color: rgba(255, 255, 255, 0.7);
+}
 .btn {
   display: inline-flex;
   align-items: center;
@@ -50,6 +59,9 @@
   margin-top: 30px;
   color: #fff;
   text-decoration: none;
+}
+.btn:hover {
+  background: #3f2691;
 }
 .project-link img {
   margin-left: 5px;
