@@ -10,29 +10,34 @@ import Project from './pages/project/Project'
 import Contact from './pages/contact/Contact'
 import ProjectDetails from './pages/Projects/ProjectDetails'
 import Resume from './pages/Resume'
+import { useTheme } from './hooks/useTheme'
 
 function App() {
+  const { mode } = useTheme()
+
   return (
-    <div className="App">
+    <div className={`App ${mode}`}>
       <BrowserRouter>
         <Navbar />
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route path='/projects'>
-            <Project />
-          </Route>
-          <Route path='/project/:id'>
-            <ProjectDetails />
-          </Route>
-          <Route path='/contact'>
-            <Contact />
-          </Route>
-          <Route path='/resume'>
-            <Resume />
-          </Route>
-        </Switch>
+        <main>
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/projects'>
+              <Project />
+            </Route>
+            <Route path='/project/:id'>
+              <ProjectDetails />
+            </Route>
+            <Route path='/contact'>
+              <Contact />
+            </Route>
+            <Route path='/resume'>
+              <Resume />
+            </Route>
+          </Switch>
+        </main>
       </BrowserRouter>
     </div>
   );

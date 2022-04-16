@@ -40,7 +40,7 @@ export default function Navbar() {
           <span>Hussen Taiwo</span>
         </Link>
         {(mobileMenu || screenWidth > 678) && (
-          <ul>
+          <ul onClick={() => setMobileMenu(false)}>
             <li className='navbar__links'><Link to='/projects'>Projects</Link></li>
             <li className='navbar__links'><Link to='/resume'>Resume</Link></li>
             <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>

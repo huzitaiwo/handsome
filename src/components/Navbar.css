@@ -1,5 +1,6 @@
 .navbar {
   background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .navbar.dark {
   background: #13192e;
@@ -41,18 +42,15 @@
 .navbar a:hover {
   color: #6d4ed7;
 }
-.navbar .hi:hover {
-  color: #fff;
-}
-.navbar .hi a:hover {
-  color: #fff;
-}
-.navbar .hi {
+.navbar .hi  {
   border-radius: 6px;
   padding: 6px 18px;
   margin-left: 20px;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #6d4ed7;
+  cursor: pointer;
+}
+.navbar .hi a {
+  color: #fff;
 }
 .navbar .hi.dark {
   color: #fff;
