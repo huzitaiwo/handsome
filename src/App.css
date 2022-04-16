@@ -24,6 +24,9 @@ footer {
 
 /* mobile landscape - 678px */
 @media (max-width: 678px) {
+  main {
+    margin-top: 10vh;
+  }
   section,
   footer {
     padding: 30px 0;

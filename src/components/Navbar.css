@@ -19,6 +19,9 @@
   font-weight: 500;
   font-size: 1.2rem;
 }
+.navbar .brand span.dark {
+  color: #fff;
+}
 .navbar .brand img {
   width: 35px;
   margin-right: 5px;
@@ -26,6 +29,9 @@
 .navbar ul {
   display: flex;
   align-items: center;
+}
+.navbar ul.dark {
+  background: #13192e;
 }
 .navbar .navbar__links {
   list-style: none;
@@ -50,15 +56,6 @@
   cursor: pointer;
 }
 .navbar .hi a {
-  color: #fff;
-}
-.navbar .hi.dark {
-  color: #fff;
-  background: #100e1d;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-.navbar .hi:hover {
-  background: #6d4ed7;
   color: #fff;
 }
 .navbar .toggler {

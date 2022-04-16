@@ -11,10 +11,10 @@ import twitter from '../asset/icon/twitter-brand.svg'
 import bannerThumbnail from '../asset/images/web_development.png'
 
 export default function Banner() {
-  const { color, changeColor } = useTheme()
+  const { mode } = useTheme()
 
   return (
-    <section onClick={() => changeColor('#9ce9df')} className='banner' style={{ background: color }}>
+    <section className={`banner ${mode}`}>
       <div className="container">
         <div className="container__content">
           <span>&#128075; Welcome!</span>

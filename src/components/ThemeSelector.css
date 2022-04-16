@@ -1,7 +1,9 @@
 .theme-selector {
   background: #ae9ce9;
 }
-
+.theme-selector.dark {
+  background: #251a59;
+}
 .theme-selector .mode-toggler {
   background: none;
   border: none;

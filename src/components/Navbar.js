@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react'
+import { useTheme } from '../hooks/useTheme'
 import { Link } from 'react-router-dom'
+
+
+// style and images
+import './Navbar.css'
 import brand from '../asset/icon/logo.svg'
 import hamburger from '../asset/icon/hamburger.svg'
 import close from '../asset/icon/close.svg'
 
-// style
-import './Navbar.css'
-
 export default function Navbar() {
+  const { mode } = useTheme()
   const [mobileMenu, setMobileMenu] = useState(false)
 
   const toggleNavigation = () => {
@@ -33,17 +36,17 @@ export default function Navbar() {
   }, [])
 
   return (
-    <nav className='navbar'>
+    <nav className={`navbar ${mode}`}>
       <div className="container">
         <Link to='/' className="brand">
           <img src={brand} alt="brand" />
-          <span>Hussen Taiwo</span>
+          <span className={mode}>Hussen Taiwo</span>
         </Link>
         {(mobileMenu || screenWidth > 678) && (
-          <ul onClick={() => setMobileMenu(false)}>
-            <li className='navbar__links'><Link to='/projects'>Projects</Link></li>
-            <li className='navbar__links'><Link to='/resume'>Resume</Link></li>
-            <li className='navbar__links hi'><Link to='/contact'>Let's Talk</Link></li>
+          <ul className={mode} onClick={() => setMobileMenu(false)}>
+            <li className='navbar__links'><Link className={mode} to='/projects'>Projects</Link></li>
+            <li className='navbar__links'><Link className={mode} to='/resume'>Resume</Link></li>
+            <li className={`navbar__links hi ${mode}`}><Link className={mode} to='/contact'>Let's Talk</Link></li>
           </ul>
         )}
         <button className="toggler" onClick={toggleNavigation}>
