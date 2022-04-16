@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useCollection } from '../../hooks/useCollection'
+import { useTheme } from '../../hooks/useTheme'
 
 //styles
 import './Project.css'
 
 export default function Project() {
+  const { mode } = useTheme()
+
   const { documents: projects, isLoading, error } = useCollection('projects')
   const [status, setStatus] = useState(0)
 
@@ -21,7 +24,7 @@ export default function Project() {
       <div className="container">
         <div className='project__bar'>
           <div className="project__bar-content">
-            <ul className='project__links'>
+            <ul className={`project__links ${mode}`}>
               <li><button onClick={() => {
                 setStatus(0)
               }} className={status === 0 ? 'active' : ''}>Websites</button></li>
