@@ -34,7 +34,7 @@
   font-family: "Poppins", sans-serif;
 }
 .banner p {
-  max-width: 50ch;
+  max-width: 60ch;
 }
 .banner small {
   font-weight: 700;
@@ -59,19 +59,23 @@
 }
 
 @media (max-width: 987px) {
-  .banner .container {
-    grid-template-columns: 1fr;
+  .banner h2 {
+    max-width: 550px;
   }
   .banner .banner-thumbnail {
     display: none;
   }
+  .banner .container {
+    grid-template-columns: 1fr;
+  }
 }
+
 @media (max-width: 678px) {
   .banner {
     padding: 60px 0;
   }
   .banner h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     max-width: 450px;
     line-height: 1.2;
     margin: 20px 0;
