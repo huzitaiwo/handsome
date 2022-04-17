@@ -51,12 +51,17 @@
 .navbar .hi {
   border-radius: 6px;
   padding: 6px 18px;
-  margin-left: 20px;
+  margin-left: 10px;
   background: #6d4ed7;
+  color: #fff;
   cursor: pointer;
 }
-.navbar .hi a.dark {
+.navbar .hi.dark {
   color: #fff;
+}
+.navbar .hi:hover  {
+  color: #fff;
+  background: #251a59;
 }
 .navbar .toggler {
   background: none;
@@ -87,19 +92,20 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-  .navbar .navbar__links, .navbar .hi {
+  .navbar .navbar__links {
     margin: 30px 0 30px 30px;
   }
   .navbar ul.dark {
     background: #13192e;
   }
   .navbar .hi {
-    border-radius: none;
     background: none;
     border: none;
+    margin: 0;
+    padding: 0;
   }
   .navbar .hi.dark {
-    color: #141414;
+    color: #fff;
   }
   .navbar .navbar__links {
     margin-left: 30px;
