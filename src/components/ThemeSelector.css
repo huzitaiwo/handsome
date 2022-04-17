@@ -1,5 +1,6 @@
 .theme-selector {
   background: #ae9ce9;
+  padding: 10px 0;
 }
 .theme-selector.dark {
   background: #251a59;
