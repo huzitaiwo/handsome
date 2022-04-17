@@ -48,7 +48,7 @@ export default function Navbar() {
           <ul className={mode} onClick={() => setMobileMenu(false)}>
             <li className='navbar__links'><Link className={mode} to='/projects'>Projects</Link></li>
             <li className='navbar__links'><Link className={mode} to='/resume'>Resume</Link></li>
-            <li className={`navbar__links hi ${mode}`}><Link className={mode} to='/contact'>Let's Talk</Link></li>
+            <li className={`navbar__links ${mode}`}><Link className={`hi ${mode}`} to='/contact'>Let's Talk</Link></li>
           </ul>
         )}
         <button className="toggler" onClick={toggleNavigation}>
