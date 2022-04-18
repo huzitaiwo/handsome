@@ -56,9 +56,6 @@
   color: #fff;
   cursor: pointer;
 }
-.navbar .hi.dark {
-  color: #fff;
-}
 .navbar .hi:hover  {
   color: #fff;
   background: #251a59;
@@ -104,8 +101,8 @@
     margin: 0;
     padding: 0;
   }
-  .navbar .hi.dark {
-    color: #fff;
+  .navbar .hi.light {
+    color: #141414;
   }
   .navbar .navbar__links {
     margin-left: 30px;

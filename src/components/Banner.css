@@ -7,12 +7,6 @@
   background: #251a59;
   color: #ae9ce9;
 }
-
-/* purple #ae9ce9, #251a59, #6d4ed7 */
-
-/* green #9ce9df #40ac9a, #1a5559 */
-
-/* 7055d8 */
 .banner .container {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
