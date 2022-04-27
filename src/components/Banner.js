@@ -6,11 +6,11 @@ import './Banner.css'
 // images
 import linkedin from '../asset/icon/linkedin-brand.svg'
 import github from '../asset/icon/github-brand.svg'
-import instagram from '../asset/icon/instagram-brand.svg'
+import facebook from '../asset/icon/facebook_brand.svg'
 import twitter from '../asset/icon/twitter-brand.svg'
 import linkedinLight from '../asset/icon/linkedin-brand-light.svg'
 import githubLight from '../asset/icon/github-brand-light.svg'
-import instagramLight from '../asset/icon/instagram-brand-light.svg'
+import facebookLight from '../asset/icon/facebook_brand-light.svg'
 import twitterLight from '../asset/icon/twitter-brand-light.svg'
 import bannerThumbnail from '../asset/images/web_development.png'
 
@@ -28,29 +28,35 @@ export default function Banner() {
             <p>Follow me on:</p>
             <ul className='social-links'>
               <li>
-                <a href="https://google.com">
+                <a href="https://github.com/huzitaiwo">
                   {mode === 'light' && <img src={github} alt="github" />}
                   {mode === 'dark' && <img src={githubLight} alt="github" />}
                 </a>
               </li>
               <li>
-                <a href="https://google.com">
+                <a href="https://www.linkedin.com/in/huzi-taiwo-62a7541b3/">
                   {mode === 'light' && <img src={linkedin} alt="linked" />}
                   {mode === 'dark' && <img src={linkedinLight} alt="linked" />}
                 </a>
               </li>
               <li>
-                <a href="https://google.com">
+                <a href="https://twitter.com/huzitaiwo">
                   {mode === 'light' && <img src={twitter} alt="twitter" />}
                   {mode === 'dark' && <img src={twitterLight} alt="twitter" />}
                 </a>
               </li>
               <li>
+                <a href="https://web.facebook.com/profile.php?id=100059340002901">
+                  {mode === 'light' && <img src={facebook} alt="facebook" />}
+                  {mode === 'dark' && <img src={facebookLight} alt="facebook" />}
+                </a>
+              </li>
+              {/* <li>
                 <a href="https://google.com">
                   {mode === 'light' && <img src={instagram} alt="instagram" />}
                   {mode === 'dark' && <img src={instagramLight} alt="instagram" />}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
