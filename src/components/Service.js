@@ -26,7 +26,9 @@ export default function Service() {
                 <img className='service-image' src={service.photoURL} alt={service.title} />
                 <div className="content">
                   <h3>{service.title}</h3>
-                  <p className='description'>{service.description}</p>
+                  {service.description && service.description.map((description, i) => (
+                    <p key={i} className='description'>{description}</p>
+                  ))}
                 </div>
               </li>
             ))}
