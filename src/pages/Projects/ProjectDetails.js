@@ -34,12 +34,16 @@ export default function ProjectDetails() {
             <div className="container">
               <div className="project-grid">
                 <div className="project-information">
-                  <p className="project-label">Client</p>
+                  <p className="project-label">Designed by</p>
                   <p className={`project-text ${mode}`}>{project.clientName}</p>
                   <p className="project-label">Project type</p>
                   <p className={`project-text ${mode}`}>{project.type}</p>
                   <p className="project-label">Project year</p>
                   <p className={`project-text ${mode}`}>{project.year}</p>
+                  <p className="project-label">Technologies</p>
+                  {/* {project.tools && project.tools.map(tool => (
+                    <span className={`project-text ${mode}`}>{project.tool}</span>,
+                  ))} */}
                 </div>
                 <div className="project-description">
                   <h2>{project.descriptionTitle}</h2>
