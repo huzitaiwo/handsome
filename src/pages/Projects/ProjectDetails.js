@@ -41,9 +41,11 @@ export default function ProjectDetails() {
                   <p className="project-label">Project year</p>
                   <p className={`project-text ${mode}`}>{project.year}</p>
                   <p className="project-label">Technologies</p>
-                  {/* {project.tools && project.tools.map(tool => (
-                    <span className={`project-text ${mode}`}>{project.tool}</span>,
-                  ))} */}
+                  <ul className='project-tools'>
+                    {project.tools && project.tools.map((tool, i) => (
+                      <li key={i}>{tool}, </li>
+                    ))}
+                  </ul>
                 </div>
                 <div className="project-description">
                   <h2>{project.descriptionTitle}</h2>

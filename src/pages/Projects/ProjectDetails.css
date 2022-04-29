@@ -36,6 +36,10 @@
 .project-text.dark {
   color: rgba(255, 255, 255, 0.7);
 }
+.project-description {
+  display: flex;
+  flex-direction: column;
+}
 .project-description h2 {
   font-size: 20px;
   line-height: 1.1;
@@ -47,16 +51,20 @@
   padding-bottom: 10px;
   line-height: 1.5;
 }
+.project-tools li {
+  list-style: none;
+  display: inline;
+}
 .project-description p.dark {
   color: rgba(255, 255, 255, 0.7);
 }
 .btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   padding: 10px 15px;
   background: #6d4ed7;
   border-radius: 5px;
-  margin-top: 30px;
+  margin: auto auto 0 0;
   color: #fff;
   text-decoration: none;
 }
