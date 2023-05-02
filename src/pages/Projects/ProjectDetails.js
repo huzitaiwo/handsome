@@ -43,7 +43,7 @@ export default function ProjectDetails() {
                   <p className="project-label">Technologies</p>
                   <ul className='project-tools'>
                     {project.tools && project.tools.map((tool, i) => (
-                      <li key={i}>{tool}, </li>
+                      <li key={i}>{tool}</li>
                     ))}
                   </ul>
                 </div>
