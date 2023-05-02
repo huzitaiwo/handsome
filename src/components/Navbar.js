@@ -40,15 +40,14 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${mode}`}>
       <div className="container">
-        <Link to='/' className="brand">
+        <Link onClick={() => setMobileMenu(false)} to='/' className="brand">
           <img src={brand} alt="brand" />
           <span className={mode}>Hussen Taiwo</span>
         </Link>
         {(mobileMenu || screenWidth > 678) && (
-          <ul className={mode} onClick={() => setMobileMenu(false)}>
-            <li className='navbar__links'><Link className={mode} to='/projects'>Projects</Link></li>
-            <li className='navbar__links'><Link className={mode} to='/resume'>Resume</Link></li>
-            <li className={`navbar__links ${mode}`}><Link className={`hi ${mode}`} to='/contact'>Let's Talk</Link></li>
+          <ul className={mode}>
+            <li className='navbar__links'><Link onClick={() => setMobileMenu(false)} className={mode} to='/projects'>Projects</Link></li>
+            <li className={`navbar__links ${mode}`}><Link onClick={() => setMobileMenu(false)} className={`hi ${mode}`} to='/contact'>Let's Talk</Link></li>
           </ul>
         )}
         <button className="toggler" onClick={toggleNavigation}>

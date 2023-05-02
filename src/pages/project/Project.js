@@ -10,7 +10,31 @@ export default function Project() {
   const { mode } = useTheme()
 
   const { documents: projects, isLoading, error } = useCollection('projects')
-  const [status, setStatus] = useState(0)
+  const [status, setStatus] = useState("website")
+
+  // const projectsInProgress = projects ? projects.filter(document => {
+  //   let progress = false
+  //   if (document.inProgress) {
+  //     progress = true
+  //   }
+  //   return progress
+  // }) : null
+
+  const websiteProjects = projects ? projects.filter(project => {
+    let category = false
+    if (project.category === 'website') {
+      category = true
+    }
+    return category
+  }) : null
+
+  const appProjects = projects ? projects.filter(project => {
+    let category = false
+    if (project.category === 'app') {
+      category = true
+    }
+    return category
+  }) : null
 
   if(isLoading) {
     return <h3>Loading...</h3>
@@ -26,24 +50,40 @@ export default function Project() {
           <div className="project__bar-content">
             <ul className={`project__links ${mode}`}>
               <li><button onClick={() => {
-                setStatus(0)
-              }} className={status === 0 ? 'active' : ''}>Websites</button></li>
+                setStatus("website")
+              }} className={status === "website" ? "active" : ''}>Websites</button></li>
               <li><button onClick={() => {
-                setStatus(1)
-              }} className={status === 1 ? 'active' : ''}>Apps</button></li>
-              <li><button onClick={() => {
-                setStatus(2)
-              }} className={status === 2 ? 'active' : ''}>dApps</button></li>
+                setStatus("app")
+              }} className={status === "app" ? "active" : ''}>Apps</button></li>
             </ul>
           </div>
         </div>
         <div className="project__list">
-          {projects && projects.map(project => (
-            <Link className='project__link' to={`project/${project.id}`} key={project.id}>
-              <div className="project__overlay"></div>
-              <img src={project.photoURL} alt="my movie website" />
-            </Link>
-          ))}
+          {projects && (
+            <>
+              {status === 'website' && (
+                <div>
+                {websiteProjects.map(project => (
+                  <Link className='project__link' to={`project/${project.id}`} key={project.id}>
+                    <div className="project__overlay"></div>
+                    <img src={project.photoURL} alt="website thumbnail" />
+                  </Link>
+                ))}
+              </div>  
+              )}
+
+              {status === 'app' && (
+                <div>
+                {appProjects.map(project => (
+                  <Link className='project__link' to={`project/${project.id}`} key={project.id}>
+                    <div className="project__overlay"></div>
+                    <img src={project.photoURL} alt="website thumbnail" />
+                  </Link>
+                ))}
+              </div>  
+              )}          
+            </>
+          )}
         </div>
       </div>
     </div>
