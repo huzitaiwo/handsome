@@ -48,7 +48,7 @@ export default function Navbar() {
                 className={mode}
                 to="/"
               >
-                <i className="fi fi-sr-home"></i>
+                <i className="fi fi-rr-home"></i>
                 Home
               </Link>
             </li>
@@ -58,9 +58,21 @@ export default function Navbar() {
                 className={mode}
                 to="/projects"
               >
-                <i className="fi fi-sr-folder-open"></i>
+                <i className="fi fi-rr-folder-open"></i>
                 Projects
               </Link>
+            </li>
+            <li className="navbar__links">
+              <a
+                onClick={() => setMobileMenu(false)}
+                className={mode}
+                target="_blank"
+                rel="noreferrer"
+                href="https://drive.google.com/file/d/13-vIt7NjDXog4i04m9-RZmuOMuVfXXs7/view?usp=sharing"
+              >
+                <i className="fi fi-rr-poll-h"></i>
+                Résumé
+              </a>
             </li>
             <li className={`navbar__links ${mode}`}>
               <Link
@@ -68,7 +80,7 @@ export default function Navbar() {
                 className={`hi ${mode}`}
                 to="/contact"
               >
-                <i className="fi fi-sr-comment"></i>
+                <i className="fi fi-rr-comment"></i>
                 Let's Talk
               </Link>
             </li>
