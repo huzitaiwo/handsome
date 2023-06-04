@@ -1,7 +1,7 @@
 .banner {
   background: #ae9ce9;
   color: #251a59;
-  padding: 120px 0;
+  padding: 50px 0;
 }
 .banner.dark {
   background: #251a59;
@@ -25,10 +25,10 @@
   max-width: 500px;
   line-height: 1.2;
   margin: 20px 0;
-  font-family: "Poppins", sans-serif;
 }
 .banner p {
   max-width: 60ch;
+  line-height: 1.4;
 }
 .banner small {
   font-weight: 700;

@@ -1,19 +1,19 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 // styles
-import './Contact.css'
+import "./Contact.css";
 
 export default function Contact() {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleSubmit = e => {
-    e.preventDefault()
-    setName('')
-    setEmail('')
-    setMessage('')
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
 
   return (
     <section>
@@ -21,28 +21,31 @@ export default function Contact() {
         <form onSubmit={handleSubmit}>
           <h2 className="secondary-heading">Let's work together</h2>
           <p className="form-paragraph">
-            Have an idea or a concept that really excite you? Let's turn that idea into reality.
+            Have an idea or a concept that really excite you? Let's turn that
+            idea into reality.
           </p>
           <div className="field-grid">
             <div className="field">
               <label>
                 <span>Name</span>
-                <input 
+                <input
                   type="text"
                   required
-                  onChange={e => setName(e.target.value)}
+                  onChange={(e) => setName(e.target.value)}
                   value={name}
+                  id="name"
                 />
               </label>
             </div>
             <div className="field">
               <label>
                 <span>Email Address</span>
-                <input 
+                <input
                   type="text"
                   required
-                  onChange={e => setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value)}
                   value={email}
+                  id="email"
                 />
               </label>
             </div>
@@ -54,7 +57,8 @@ export default function Contact() {
                 name="message"
                 id="message"
                 required
-                onChange={e => setMessage(e.target.value)} value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                value={message}
               ></textarea>
             </label>
           </div>
@@ -62,5 +66,5 @@ export default function Contact() {
         </form>
       </div>
     </section>
-  )
+  );
 }

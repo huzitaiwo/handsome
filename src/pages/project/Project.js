@@ -12,14 +12,6 @@ export default function Project() {
   const { documents: projects, isLoading, error } = useCollection('projects')
   const [status, setStatus] = useState("website")
 
-  // const projectsInProgress = projects ? projects.filter(document => {
-  //   let progress = false
-  //   if (document.inProgress) {
-  //     progress = true
-  //   }
-  //   return progress
-  // }) : null
-
   const websiteProjects = projects ? projects.filter(project => {
     let category = false
     if (project.category === 'website') {

@@ -2,6 +2,7 @@
   margin-top: 30px;
 }
 .service-list__content {
+  padding: 5px 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   display: grid;
@@ -14,9 +15,6 @@
   gap: 60px;
   align-items: center;
 }
-.service-list__content img {
-  width: 100%;
-}
 .service-list__content > li:nth-child(2) .content {
   order: -1;
 }
@@ -28,11 +26,15 @@
 }
 .service-list__content p {
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .service-list__content .service-image {
-  height: 300px;
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
   object-fit: cover;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 860px) {

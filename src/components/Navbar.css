@@ -49,14 +49,16 @@
   color: #6d4ed7;
 }
 .navbar .hi {
-  border-radius: 6px;
-  padding: 6px 18px;
-  margin-left: 10px;
   background: #6d4ed7;
   color: #fff;
+  margin-left: 10px;
+  padding: 6px 18px;
+  border-radius: 6px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.navbar .hi:hover  {
+.navbar .hi:hover {
   color: #fff;
   background: #251a59;
 }
